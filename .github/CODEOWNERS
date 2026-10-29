@@ -1,0 +1,26 @@
+# Thay @user-a ... bằng username GitHub thật. Mỗi khu vực có một chủ.
+/notebooks/nb01*               @user-a
+/notebooks/nb02*               @user-a
+/docs/decision_log.md          @user-a
+/docs/data_quality_report.md   @user-a
+/ai_usage/member_A.md          @user-a
+
+/sql/                          @user-b
+/run_all.py                    @user-b
+/config.py                     @user-b
+/dmutils.py                    @user-b
+/scripts/                      @user-b
+/scripts/download_data.py      @user-a
+/docs/schema_notes.md          @user-b
+/docs/contracts.md             @user-b
+/ai_usage/member_B.md          @user-b
+
+/notebooks/nb03*               @user-c
+/notebooks/nb05*               @user-c
+/ai_usage/member_C.md          @user-c
+
+/notebooks/nb04*               @user-d
+/docs/ethics.md                @user-d
+/dashboard/                    @user-d
+/outputs/labeling/             @user-d
+/ai_usage/member_D.md          @user-d

@@ -1,0 +1,17 @@
+# môi trường
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# dữ liệu thô / trung gian: KHÔNG commit (dung lượng + giấy phép)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# kết quả trung gian sinh ra khi chạy (outputs/results.json thì CÓ commit)
+outputs/olap/*.csv
+outputs/results_parts/
