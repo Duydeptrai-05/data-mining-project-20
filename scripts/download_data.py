@@ -10,8 +10,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config import RAW_DIR
 
 EXPECTED_SHA256 = {
-    "googleplaystore.csv": "TODO_A_ĐIỀN_SAU_KHI_TẢI",
-    "googleplaystore_user_reviews.csv": "TODO_A_ĐIỀN_SAU_KHI_TẢI",
+    "googleplaystore.csv": "3e438f48161961933d26e99a8d9fc8ed79edfaa9fb34f8838e1ab4ec7a9fab91",
+    "googleplaystore_user_reviews.csv": "5074250eaf0722db4a5707f0b06dcdf3663310348761ccaab01ec6f94411269b",
 }
 
 def sha256(p: Path) -> str:

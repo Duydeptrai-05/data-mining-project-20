@@ -1,5 +1,7 @@
 # Khai báo sử dụng AI - thành viên A
+
 (Tiêu chí 10: mỗi người tự ghi. A thu, D xác nhận. Số lần/ nội dung phải khớp lịch sử hệ thống.)
 
-| Ngày | Công cụ | Dùng cho việc gì | Prompt chính (tóm tắt) | Em đã kiểm tra/sửa gì |
-|---|---|---|---|---|
+| Ngày       | Công cụ            | Dùng cho việc gì                                                                                    | Prompt chính (tóm tắt)                                                                                                | Em đã kiểm tra/sửa gì                                                                                                  |
+| ---------- | ------------------ | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 30/10/2026 | Claude (claude.ai) | A1, A2: đọc giấy phép dữ liệu, soạn báo cáo chất lượng dữ liệu, khung nb01 và bản nháp decision log | Hỏi về giấy phép CC BY 3.0, vị trí file trong repo; nhờ soạn nội dung báo cáo, code đếm vấn đề và điền bảng từ output | Tự đối chiếu giấy phép trên Kaggle (khớp); tự chạy nb01, số liệu là output thật; tự sửa tiêu đề và cách ghi bằng chứng |
