@@ -1,0 +1,103 @@
+{
+  "app": {
+    "n_raw": 10841,
+    "n_kept": 9638,
+    "drop_reason_counts": {
+      "kept": 9638,
+      "name_dup": 719,
+      "exact_dup": 483,
+      "misaligned": 1
+    },
+    "rating_missing_of_kept": 1458
+  },
+  "review": {
+    "n_raw": 64295,
+    "n_after_exact_dup": 30679,
+    "n_kept": 28250,
+    "drop_reason_counts": {
+      "exact_dup": 33616,
+      "kept": 28250,
+      "no_app_match": 1442,
+      "no_text": 987
+    },
+    "kept_reviews_without_category": 0
+  },
+  "unmatched": {
+    "n_reviews": 1489,
+    "n_reviews_labelled_no_app_match": 1442,
+    "n_names": 54,
+    "pct_of_non_exact_dup_reviews": 0.0485,
+    "n_names_non_latin": 9,
+    "pct_names_non_latin": 0.1667,
+    "n_reviews_non_latin_names": 225
+  },
+  "coverage": {
+    "n_apps_with_text": 816,
+    "pct_apps_with_text": 0.0847,
+    "categories_below_min_cell_n_apps": 0,
+    "categories_neg_below_min_cell_n": 6
+  },
+  "min_cell_n": 30,
+  "check_vs_decision_log": {
+    "app n_raw (log #1)": {
+      "got": 10841,
+      "log": 10841,
+      "match": true
+    },
+    "app misaligned (log #1)": {
+      "got": 1,
+      "log": 1,
+      "match": true
+    },
+    "app exact_dup (log #2)": {
+      "got": 483,
+      "log": 483,
+      "match": true
+    },
+    "app name_dup (log #3)": {
+      "got": 719,
+      "log": 719,
+      "match": true
+    },
+    "app kept (log #3)": {
+      "got": 9638,
+      "log": 9638,
+      "match": true
+    },
+    "app rating thieu / kept (log #4)": {
+      "got": 1458,
+      "log": 1458,
+      "match": true
+    },
+    "review n_raw (log #7)": {
+      "got": 64295,
+      "log": 64295,
+      "match": true
+    },
+    "review exact_dup (log #7)": {
+      "got": 33616,
+      "log": 33616,
+      "match": true
+    },
+    "review no_text (log #9)": {
+      "got": 987,
+      "log": 987,
+      "match": true
+    },
+    "review no_app_match (log #10)": {
+      "got": 1442,
+      "log": 1442,
+      "match": true
+    },
+    "review kept (log #9)": {
+      "got": 28250,
+      "log": 28250,
+      "match": true
+    },
+    "ten khong khop (log #10)": {
+      "got": 54,
+      "log": 54,
+      "match": true
+    }
+  }
+}
