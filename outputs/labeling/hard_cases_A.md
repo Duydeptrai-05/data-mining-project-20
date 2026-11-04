@@ -1,0 +1,7 @@
+| sample_id | Nhãn đã gán       | Lý do khó                                                                                                                                                              |
+| --------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 24        | khac              | Vì nói về độ khó của màn 18 là k thể vượt qua theo cộng đồng, nhưng người đánh giá lại vượt qua và chia sẽ kinh nghiệm về cách vượt                                    |
+| 27        | tien_thanh_toan   | Nói về đôi khi giá bị sai, nên làm phân vân việc chọn tien_thanh_toan hay loi_hieu_nang                                                                                |
+| 29        | de_xuat_tinh_nang | Nói về việc bị làm phiền bởi tính năng định vị, và sau đó mong ghi nhớ lựa chọn của người dùng và đừng làm phiền , nên khó mà chọn de_xuat_tinh_nang hay loi_hieu_nang |
+| 47        | khac              | Phân vân về việc chọn lỗi hay khác, vì lý do chung chung                                                                                                               |
+| 48        | loi_hieu_nang     | Vừa nói về quảng cáo, vừa nói về lỗi nên khó chọn                                                                                                                      |
