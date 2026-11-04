@@ -1,628 +1,3099 @@
 {
-  "git_commit": null,
+  "git_commit": "50cfea1",
   "olap": {
     "q01_rollup_category_pricetype": [
       {
-        "avg_rating": 3.343,
-        "category": "BUSINESS",
-        "median_rating": 3.3,
-        "n_apps": 51,
+        "avg_rating": 4.312,
+        "category": "ART_AND_DESIGN",
+        "median_rating": 4.3,
+        "n_apps": 49,
         "price_type": "Free"
       },
       {
-        "avg_rating": 2.8,
-        "category": "BUSINESS",
-        "median_rating": 3.0,
-        "n_apps": 5,
-        "price_type": "Paid"
-      },
-      {
-        "avg_rating": 3.447,
-        "category": "FAMILY",
-        "median_rating": 3.7,
-        "n_apps": 43,
-        "price_type": "Free"
-      },
-      {
-        "avg_rating": 2.233,
-        "category": "FAMILY",
-        "median_rating": 1.9,
+        "avg_rating": 4.733,
+        "category": "ART_AND_DESIGN",
+        "median_rating": 4.7,
         "n_apps": 3,
         "price_type": "Paid"
       },
       {
-        "avg_rating": 3.143,
-        "category": "GAME",
-        "median_rating": 2.9,
-        "n_apps": 40,
+        "avg_rating": 4.281,
+        "category": "AUTO_AND_VEHICLES",
+        "median_rating": 4.4,
+        "n_apps": 57,
         "price_type": "Free"
       },
       {
-        "avg_rating": 3.244,
-        "category": "GAME",
-        "median_rating": 2.8,
-        "n_apps": 9,
+        "avg_rating": 4.6,
+        "category": "AUTO_AND_VEHICLES",
+        "median_rating": 4.6,
+        "n_apps": 1,
         "price_type": "Paid"
       },
       {
-        "avg_rating": 3.331,
-        "category": "MEDICAL",
-        "median_rating": 3.1,
+        "avg_rating": 4.339,
+        "category": "BEAUTY",
+        "median_rating": 4.4,
+        "n_apps": 33,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.382,
+        "category": "BOOKS_AND_REFERENCE",
+        "median_rating": 4.5,
+        "n_apps": 130,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 3.96,
+        "category": "BOOKS_AND_REFERENCE",
+        "median_rating": 4.1,
+        "n_apps": 5,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.097,
+        "category": "BUSINESS",
+        "median_rating": 4.2,
+        "n_apps": 160,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.58,
+        "category": "BUSINESS",
+        "median_rating": 4.7,
+        "n_apps": 5,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.171,
+        "category": "COMICS",
+        "median_rating": 4.4,
         "n_apps": 49,
         "price_type": "Free"
       },
       {
-        "avg_rating": 3.375,
-        "category": "MEDICAL",
-        "median_rating": 3.45,
+        "avg_rating": 4.144,
+        "category": "COMMUNICATION",
+        "median_rating": 4.2,
+        "n_apps": 197,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.129,
+        "category": "COMMUNICATION",
+        "median_rating": 4.35,
+        "n_apps": 14,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 3.958,
+        "category": "DATING",
+        "median_rating": 4.1,
+        "n_apps": 107,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.2,
+        "category": "DATING",
+        "median_rating": 4.2,
+        "n_apps": 1,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.343,
+        "category": "EDUCATION",
+        "median_rating": 4.4,
+        "n_apps": 103,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.7,
+        "category": "EDUCATION",
+        "median_rating": 4.7,
+        "n_apps": 1,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.119,
+        "category": "ENTERTAINMENT",
+        "median_rating": 4.2,
+        "n_apps": 85,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.6,
+        "category": "ENTERTAINMENT",
+        "median_rating": 4.6,
+        "n_apps": 2,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.328,
+        "category": "EVENTS",
+        "median_rating": 4.4,
+        "n_apps": 29,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.153,
+        "category": "FAMILY",
+        "median_rating": 4.2,
+        "n_apps": 1200,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.355,
+        "category": "FAMILY",
+        "median_rating": 4.4,
+        "n_apps": 110,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.15,
+        "category": "FINANCE",
+        "median_rating": 4.3,
+        "n_apps": 238,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.114,
+        "category": "FINANCE",
+        "median_rating": 4.1,
+        "n_apps": 7,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.194,
+        "category": "FOOD_AND_DRINK",
+        "median_rating": 4.3,
+        "n_apps": 84,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.35,
+        "category": "FOOD_AND_DRINK",
+        "median_rating": 4.35,
+        "n_apps": 2,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.242,
+        "category": "GAME",
+        "median_rating": 4.3,
+        "n_apps": 774,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.379,
+        "category": "GAME",
+        "median_rating": 4.4,
+        "n_apps": 58,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.279,
+        "category": "HEALTH_AND_FITNESS",
+        "median_rating": 4.5,
+        "n_apps": 195,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.39,
+        "category": "HEALTH_AND_FITNESS",
+        "median_rating": 4.5,
+        "n_apps": 10,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.158,
+        "category": "HOUSE_AND_HOME",
+        "median_rating": 4.2,
+        "n_apps": 59,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.145,
+        "category": "LIBRARIES_AND_DEMO",
+        "median_rating": 4.2,
+        "n_apps": 51,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.009,
+        "category": "LIFESTYLE",
+        "median_rating": 4.1,
+        "n_apps": 208,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.24,
+        "category": "LIFESTYLE",
+        "median_rating": 4.3,
+        "n_apps": 15,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.091,
+        "category": "MAPS_AND_NAVIGATION",
+        "median_rating": 4.2,
+        "n_apps": 94,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.0,
+        "category": "MAPS_AND_NAVIGATION",
+        "median_rating": 4.35,
         "n_apps": 4,
         "price_type": "Paid"
       },
       {
-        "avg_rating": 3.388,
-        "category": "TOOLS",
-        "median_rating": 3.65,
-        "n_apps": 48,
+        "avg_rating": 4.148,
+        "category": "MEDICAL",
+        "median_rating": 4.3,
+        "n_apps": 130,
         "price_type": "Free"
       },
       {
-        "avg_rating": 3.217,
+        "avg_rating": 4.295,
+        "category": "MEDICAL",
+        "median_rating": 4.4,
+        "n_apps": 38,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.078,
+        "category": "NEWS_AND_MAGAZINES",
+        "median_rating": 4.2,
+        "n_apps": 166,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.8,
+        "category": "NEWS_AND_MAGAZINES",
+        "median_rating": 4.8,
+        "n_apps": 2,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.322,
+        "category": "PARENTING",
+        "median_rating": 4.4,
+        "n_apps": 41,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.7,
+        "category": "PARENTING",
+        "median_rating": 4.7,
+        "n_apps": 1,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.305,
+        "category": "PERSONALIZATION",
+        "median_rating": 4.3,
+        "n_apps": 197,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.416,
+        "category": "PERSONALIZATION",
+        "median_rating": 4.4,
+        "n_apps": 37,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.194,
+        "category": "PRODUCTIVITY",
+        "median_rating": 4.3,
+        "n_apps": 229,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.446,
+        "category": "PRODUCTIVITY",
+        "median_rating": 4.5,
+        "n_apps": 13,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.178,
+        "category": "PHOTOGRAPHY",
+        "median_rating": 4.3,
+        "n_apps": 218,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.191,
+        "category": "PHOTOGRAPHY",
+        "median_rating": 4.4,
+        "n_apps": 11,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.234,
+        "category": "SHOPPING",
+        "median_rating": 4.3,
+        "n_apps": 160,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.2,
+        "category": "SHOPPING",
+        "median_rating": 4.2,
+        "n_apps": 1,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.272,
+        "category": "SOCIAL",
+        "median_rating": 4.3,
+        "n_apps": 167,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.2,
+        "category": "SOCIAL",
+        "median_rating": 4.2,
+        "n_apps": 1,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.238,
+        "category": "SPORTS",
+        "median_rating": 4.3,
+        "n_apps": 215,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.324,
+        "category": "SPORTS",
+        "median_rating": 4.4,
+        "n_apps": 17,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.094,
         "category": "TOOLS",
-        "median_rating": 3.3,
+        "median_rating": 4.2,
+        "n_apps": 526,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.193,
+        "category": "TOOLS",
+        "median_rating": 4.45,
+        "n_apps": 42,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.079,
+        "category": "TRAVEL_AND_LOCAL",
+        "median_rating": 4.2,
+        "n_apps": 154,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.283,
+        "category": "TRAVEL_AND_LOCAL",
+        "median_rating": 4.35,
         "n_apps": 6,
         "price_type": "Paid"
       },
       {
-        "avg_rating": 3.295,
+        "avg_rating": 4.095,
+        "category": "VIDEO_PLAYERS",
+        "median_rating": 4.2,
+        "n_apps": 124,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.1,
+        "category": "VIDEO_PLAYERS",
+        "median_rating": 4.25,
+        "n_apps": 4,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.23,
+        "category": "WEATHER",
+        "median_rating": 4.3,
+        "n_apps": 64,
+        "price_type": "Free"
+      },
+      {
+        "avg_rating": 4.6,
+        "category": "WEATHER",
+        "median_rating": 4.5,
+        "n_apps": 5,
+        "price_type": "Paid"
+      },
+      {
+        "avg_rating": 4.337,
+        "category": "ART_AND_DESIGN",
+        "median_rating": 4.4,
+        "n_apps": 52,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.286,
+        "category": "AUTO_AND_VEHICLES",
+        "median_rating": 4.4,
+        "n_apps": 58,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.339,
+        "category": "BEAUTY",
+        "median_rating": 4.4,
+        "n_apps": 33,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.366,
+        "category": "BOOKS_AND_REFERENCE",
+        "median_rating": 4.5,
+        "n_apps": 135,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.112,
         "category": "BUSINESS",
-        "median_rating": 3.3,
-        "n_apps": 56,
+        "median_rating": 4.2,
+        "n_apps": 165,
         "price_type": "ALL"
       },
       {
-        "avg_rating": 3.367,
-        "category": "FAMILY",
-        "median_rating": 3.5,
-        "n_apps": 46,
-        "price_type": "ALL"
-      },
-      {
-        "avg_rating": 3.161,
-        "category": "GAME",
-        "median_rating": 2.9,
+        "avg_rating": 4.171,
+        "category": "COMICS",
+        "median_rating": 4.4,
         "n_apps": 49,
         "price_type": "ALL"
       },
       {
-        "avg_rating": 3.334,
+        "avg_rating": 4.143,
+        "category": "COMMUNICATION",
+        "median_rating": 4.2,
+        "n_apps": 211,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 3.96,
+        "category": "DATING",
+        "median_rating": 4.1,
+        "n_apps": 108,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.346,
+        "category": "EDUCATION",
+        "median_rating": 4.4,
+        "n_apps": 104,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.13,
+        "category": "ENTERTAINMENT",
+        "median_rating": 4.2,
+        "n_apps": 87,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.328,
+        "category": "EVENTS",
+        "median_rating": 4.4,
+        "n_apps": 29,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.17,
+        "category": "FAMILY",
+        "median_rating": 4.3,
+        "n_apps": 1310,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.149,
+        "category": "FINANCE",
+        "median_rating": 4.3,
+        "n_apps": 245,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.198,
+        "category": "FOOD_AND_DRINK",
+        "median_rating": 4.3,
+        "n_apps": 86,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.252,
+        "category": "GAME",
+        "median_rating": 4.3,
+        "n_apps": 832,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.284,
+        "category": "HEALTH_AND_FITNESS",
+        "median_rating": 4.5,
+        "n_apps": 205,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.158,
+        "category": "HOUSE_AND_HOME",
+        "median_rating": 4.2,
+        "n_apps": 59,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.145,
+        "category": "LIBRARIES_AND_DEMO",
+        "median_rating": 4.2,
+        "n_apps": 51,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.025,
+        "category": "LIFESTYLE",
+        "median_rating": 4.1,
+        "n_apps": 223,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.088,
+        "category": "MAPS_AND_NAVIGATION",
+        "median_rating": 4.2,
+        "n_apps": 98,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.182,
         "category": "MEDICAL",
-        "median_rating": 3.2,
-        "n_apps": 53,
+        "median_rating": 4.3,
+        "n_apps": 168,
         "price_type": "ALL"
       },
       {
-        "avg_rating": 3.369,
+        "avg_rating": 4.087,
+        "category": "NEWS_AND_MAGAZINES",
+        "median_rating": 4.2,
+        "n_apps": 168,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.331,
+        "category": "PARENTING",
+        "median_rating": 4.4,
+        "n_apps": 42,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.322,
+        "category": "PERSONALIZATION",
+        "median_rating": 4.3,
+        "n_apps": 234,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.207,
+        "category": "PRODUCTIVITY",
+        "median_rating": 4.3,
+        "n_apps": 242,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.178,
+        "category": "PHOTOGRAPHY",
+        "median_rating": 4.3,
+        "n_apps": 229,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.234,
+        "category": "SHOPPING",
+        "median_rating": 4.3,
+        "n_apps": 161,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.272,
+        "category": "SOCIAL",
+        "median_rating": 4.3,
+        "n_apps": 168,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.244,
+        "category": "SPORTS",
+        "median_rating": 4.3,
+        "n_apps": 232,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.102,
         "category": "TOOLS",
-        "median_rating": 3.65,
-        "n_apps": 54,
+        "median_rating": 4.2,
+        "n_apps": 568,
         "price_type": "ALL"
       },
       {
-        "avg_rating": 3.306,
+        "avg_rating": 4.087,
+        "category": "TRAVEL_AND_LOCAL",
+        "median_rating": 4.2,
+        "n_apps": 160,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.095,
+        "category": "VIDEO_PLAYERS",
+        "median_rating": 4.2,
+        "n_apps": 128,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.257,
+        "category": "WEATHER",
+        "median_rating": 4.4,
+        "n_apps": 69,
+        "price_type": "ALL"
+      },
+      {
+        "avg_rating": 4.186,
         "category": "ALL",
-        "median_rating": 3.25,
-        "n_apps": 258,
+        "median_rating": 4.3,
+        "n_apps": 6709,
         "price_type": "ALL"
       }
     ],
     "q02_groupingsets_lowrate_category_contentrating": [
       {
-        "category": "BUSINESS",
+        "category": "ART_AND_DESIGN",
         "content_rating": "Everyone",
-        "low_rate": 0.3889,
-        "n_apps": 18,
-        "n_low": 7
+        "low_rate": 0.0,
+        "n_apps": 48,
+        "n_low": 0
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "content_rating": "Everyone",
+        "low_rate": 0.0179,
+        "n_apps": 56,
+        "n_low": 1
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "BEAUTY",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 30,
+        "n_low": 0
+      },
+      {
+        "category": "BEAUTY",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "BEAUTY",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "content_rating": "Everyone",
+        "low_rate": 0.0089,
+        "n_apps": 112,
+        "n_low": 1
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 16,
+        "n_low": 0
       },
       {
         "category": "BUSINESS",
-        "content_rating": "Mature 17+",
-        "low_rate": 0.4375,
-        "n_apps": 16,
-        "n_low": 7
+        "content_rating": "Everyone",
+        "low_rate": 0.0488,
+        "n_apps": 164,
+        "n_low": 8
       },
       {
         "category": "BUSINESS",
         "content_rating": "Teen",
-        "low_rate": 0.4091,
-        "n_apps": 22,
-        "n_low": 9
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
       },
       {
-        "category": "FAMILY",
+        "category": "COMICS",
+        "content_rating": "Adults only 18+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "COMICS",
         "content_rating": "Everyone",
-        "low_rate": 0.4737,
-        "n_apps": 19,
-        "n_low": 9
+        "low_rate": 0.0,
+        "n_apps": 21,
+        "n_low": 0
       },
       {
-        "category": "FAMILY",
+        "category": "COMICS",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "COMICS",
         "content_rating": "Mature 17+",
-        "low_rate": 0.4,
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0
+      },
+      {
+        "category": "COMICS",
+        "content_rating": "Teen",
+        "low_rate": 0.0526,
+        "n_apps": 19,
+        "n_low": 1
+      },
+      {
+        "category": "COMMUNICATION",
+        "content_rating": "Everyone",
+        "low_rate": 0.0265,
+        "n_apps": 189,
+        "n_low": 5
+      },
+      {
+        "category": "COMMUNICATION",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 7,
+        "n_low": 0
+      },
+      {
+        "category": "COMMUNICATION",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
         "n_apps": 15,
+        "n_low": 0
+      },
+      {
+        "category": "DATING",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "DATING",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0583,
+        "n_apps": 103,
         "n_low": 6
       },
       {
+        "category": "DATING",
+        "content_rating": "Teen",
+        "low_rate": 0.5,
+        "n_apps": 2,
+        "n_low": 1
+      },
+      {
+        "category": "EDUCATION",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 99,
+        "n_low": 0
+      },
+      {
+        "category": "EDUCATION",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "EDUCATION",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "EDUCATION",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "content_rating": "Everyone",
+        "low_rate": 0.0294,
+        "n_apps": 34,
+        "n_low": 1
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 47,
+        "n_low": 0
+      },
+      {
+        "category": "EVENTS",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 24,
+        "n_low": 0
+      },
+      {
+        "category": "EVENTS",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "EVENTS",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
         "category": "FAMILY",
-        "content_rating": "Teen",
-        "low_rate": 0.25,
-        "n_apps": 12,
-        "n_low": 3
-      },
-      {
-        "category": "GAME",
         "content_rating": "Everyone",
-        "low_rate": 0.7333,
-        "n_apps": 15,
-        "n_low": 11
+        "low_rate": 0.0311,
+        "n_apps": 964,
+        "n_low": 30
       },
       {
-        "category": "GAME",
+        "category": "FAMILY",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0093,
+        "n_apps": 108,
+        "n_low": 1
+      },
+      {
+        "category": "FAMILY",
         "content_rating": "Mature 17+",
-        "low_rate": 0.5385,
-        "n_apps": 13,
-        "n_low": 7
-      },
-      {
-        "category": "GAME",
-        "content_rating": "Teen",
-        "low_rate": 0.381,
-        "n_apps": 21,
-        "n_low": 8
-      },
-      {
-        "category": "MEDICAL",
-        "content_rating": "Everyone",
-        "low_rate": 0.35,
-        "n_apps": 20,
-        "n_low": 7
-      },
-      {
-        "category": "MEDICAL",
-        "content_rating": "Mature 17+",
-        "low_rate": 0.5,
-        "n_apps": 14,
-        "n_low": 7
-      },
-      {
-        "category": "MEDICAL",
-        "content_rating": "Teen",
-        "low_rate": 0.4211,
-        "n_apps": 19,
-        "n_low": 8
-      },
-      {
-        "category": "TOOLS",
-        "content_rating": "Everyone",
-        "low_rate": 0.5,
-        "n_apps": 18,
-        "n_low": 9
-      },
-      {
-        "category": "TOOLS",
-        "content_rating": "Mature 17+",
-        "low_rate": 0.1333,
-        "n_apps": 15,
+        "low_rate": 0.0571,
+        "n_apps": 35,
         "n_low": 2
       },
       {
+        "category": "FAMILY",
+        "content_rating": "Teen",
+        "low_rate": 0.0049,
+        "n_apps": 203,
+        "n_low": 1
+      },
+      {
+        "category": "FINANCE",
+        "content_rating": "Everyone",
+        "low_rate": 0.0496,
+        "n_apps": 242,
+        "n_low": 12
+      },
+      {
+        "category": "FINANCE",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "content_rating": "Everyone",
+        "low_rate": 0.0127,
+        "n_apps": 79,
+        "n_low": 1
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 5,
+        "n_low": 0
+      },
+      {
+        "category": "GAME",
+        "content_rating": "Everyone",
+        "low_rate": 0.005,
+        "n_apps": 403,
+        "n_low": 2
+      },
+      {
+        "category": "GAME",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 97,
+        "n_low": 0
+      },
+      {
+        "category": "GAME",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 60,
+        "n_low": 0
+      },
+      {
+        "category": "GAME",
+        "content_rating": "Teen",
+        "low_rate": 0.0037,
+        "n_apps": 272,
+        "n_low": 1
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "content_rating": "Everyone",
+        "low_rate": 0.0659,
+        "n_apps": 182,
+        "n_low": 12
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 15,
+        "n_low": 0
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 57,
+        "n_low": 0
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 51,
+        "n_low": 0
+      },
+      {
+        "category": "LIFESTYLE",
+        "content_rating": "Everyone",
+        "low_rate": 0.1005,
+        "n_apps": 199,
+        "n_low": 20
+      },
+      {
+        "category": "LIFESTYLE",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
+        "category": "LIFESTYLE",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 9,
+        "n_low": 0
+      },
+      {
+        "category": "LIFESTYLE",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 11,
+        "n_low": 0
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "content_rating": "Everyone",
+        "low_rate": 0.0421,
+        "n_apps": 95,
+        "n_low": 4
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "content_rating": "Mature 17+",
+        "low_rate": 1.0,
+        "n_apps": 1,
+        "n_low": 1
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "MEDICAL",
+        "content_rating": "Everyone",
+        "low_rate": 0.0629,
+        "n_apps": 159,
+        "n_low": 10
+      },
+      {
+        "category": "MEDICAL",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 4,
+        "n_low": 0
+      },
+      {
+        "category": "MEDICAL",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "MEDICAL",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "content_rating": "Everyone",
+        "low_rate": 0.0556,
+        "n_apps": 90,
+        "n_low": 5
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0238,
+        "n_apps": 42,
+        "n_low": 1
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.1,
+        "n_apps": 10,
+        "n_low": 1
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 26,
+        "n_low": 0
+      },
+      {
+        "category": "PARENTING",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 40,
+        "n_low": 0
+      },
+      {
+        "category": "PARENTING",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "PARENTING",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 209,
+        "n_low": 0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 5,
+        "n_low": 0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 14,
+        "n_low": 0
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "content_rating": "Everyone",
+        "low_rate": 0.0333,
+        "n_apps": 240,
+        "n_low": 8
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "content_rating": "Everyone",
+        "low_rate": 0.0318,
+        "n_apps": 220,
+        "n_low": 7
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0
+      },
+      {
+        "category": "SHOPPING",
+        "content_rating": "Everyone",
+        "low_rate": 0.0075,
+        "n_apps": 133,
+        "n_low": 1
+      },
+      {
+        "category": "SHOPPING",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "SHOPPING",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 25,
+        "n_low": 0
+      },
+      {
+        "category": "SOCIAL",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 53,
+        "n_low": 0
+      },
+      {
+        "category": "SOCIAL",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "SOCIAL",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0233,
+        "n_apps": 43,
+        "n_low": 1
+      },
+      {
+        "category": "SOCIAL",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 70,
+        "n_low": 0
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "Adults only 18+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "Everyone",
+        "low_rate": 0.0143,
+        "n_apps": 210,
+        "n_low": 3
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 12,
+        "n_low": 0
+      },
+      {
+        "category": "TOOLS",
+        "content_rating": "Everyone",
+        "low_rate": 0.0443,
+        "n_apps": 564,
+        "n_low": 25
+      },
+      {
         "category": "TOOLS",
         "content_rating": "Teen",
-        "low_rate": 0.5714,
-        "n_apps": 21,
-        "n_low": 12
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
+      },
+      {
+        "category": "TOOLS",
+        "content_rating": "Unrated",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "content_rating": "Everyone",
+        "low_rate": 0.039,
+        "n_apps": 154,
+        "n_low": 6
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "content_rating": "Teen",
+        "low_rate": 0.2,
+        "n_apps": 5,
+        "n_low": 1
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "content_rating": "Everyone",
+        "low_rate": 0.0286,
+        "n_apps": 105,
+        "n_low": 3
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 19,
+        "n_low": 0
+      },
+      {
+        "category": "WEATHER",
+        "content_rating": "Everyone",
+        "low_rate": 0.0,
+        "n_apps": 65,
+        "n_low": 0
+      },
+      {
+        "category": "WEATHER",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "WEATHER",
+        "content_rating": "Mature 17+",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
+      },
+      {
+        "category": "WEATHER",
+        "content_rating": "Teen",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 52,
+        "n_low": 0
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "content_rating": "ALL",
+        "low_rate": 0.0172,
+        "n_apps": 58,
+        "n_low": 1
+      },
+      {
+        "category": "BEAUTY",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 33,
+        "n_low": 0
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "content_rating": "ALL",
+        "low_rate": 0.0074,
+        "n_apps": 135,
+        "n_low": 1
       },
       {
         "category": "BUSINESS",
         "content_rating": "ALL",
-        "low_rate": 0.4107,
-        "n_apps": 56,
-        "n_low": 23
+        "low_rate": 0.0485,
+        "n_apps": 165,
+        "n_low": 8
+      },
+      {
+        "category": "COMICS",
+        "content_rating": "ALL",
+        "low_rate": 0.0204,
+        "n_apps": 49,
+        "n_low": 1
+      },
+      {
+        "category": "COMMUNICATION",
+        "content_rating": "ALL",
+        "low_rate": 0.0237,
+        "n_apps": 211,
+        "n_low": 5
+      },
+      {
+        "category": "DATING",
+        "content_rating": "ALL",
+        "low_rate": 0.0648,
+        "n_apps": 108,
+        "n_low": 7
+      },
+      {
+        "category": "EDUCATION",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 104,
+        "n_low": 0
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "content_rating": "ALL",
+        "low_rate": 0.0115,
+        "n_apps": 87,
+        "n_low": 1
+      },
+      {
+        "category": "EVENTS",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 29,
+        "n_low": 0
       },
       {
         "category": "FAMILY",
         "content_rating": "ALL",
-        "low_rate": 0.3913,
-        "n_apps": 46,
-        "n_low": 18
+        "low_rate": 0.026,
+        "n_apps": 1310,
+        "n_low": 34
+      },
+      {
+        "category": "FINANCE",
+        "content_rating": "ALL",
+        "low_rate": 0.049,
+        "n_apps": 245,
+        "n_low": 12
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "content_rating": "ALL",
+        "low_rate": 0.0116,
+        "n_apps": 86,
+        "n_low": 1
       },
       {
         "category": "GAME",
         "content_rating": "ALL",
-        "low_rate": 0.5306,
-        "n_apps": 49,
-        "n_low": 26
+        "low_rate": 0.0036,
+        "n_apps": 832,
+        "n_low": 3
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "content_rating": "ALL",
+        "low_rate": 0.0585,
+        "n_apps": 205,
+        "n_low": 12
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 59,
+        "n_low": 0
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 51,
+        "n_low": 0
+      },
+      {
+        "category": "LIFESTYLE",
+        "content_rating": "ALL",
+        "low_rate": 0.0897,
+        "n_apps": 223,
+        "n_low": 20
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "content_rating": "ALL",
+        "low_rate": 0.051,
+        "n_apps": 98,
+        "n_low": 5
       },
       {
         "category": "MEDICAL",
         "content_rating": "ALL",
-        "low_rate": 0.4151,
-        "n_apps": 53,
-        "n_low": 22
+        "low_rate": 0.0595,
+        "n_apps": 168,
+        "n_low": 10
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "content_rating": "ALL",
+        "low_rate": 0.0417,
+        "n_apps": 168,
+        "n_low": 7
+      },
+      {
+        "category": "PARENTING",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 42,
+        "n_low": 0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 234,
+        "n_low": 0
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "content_rating": "ALL",
+        "low_rate": 0.0331,
+        "n_apps": 242,
+        "n_low": 8
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "content_rating": "ALL",
+        "low_rate": 0.0306,
+        "n_apps": 229,
+        "n_low": 7
+      },
+      {
+        "category": "SHOPPING",
+        "content_rating": "ALL",
+        "low_rate": 0.0062,
+        "n_apps": 161,
+        "n_low": 1
+      },
+      {
+        "category": "SOCIAL",
+        "content_rating": "ALL",
+        "low_rate": 0.006,
+        "n_apps": 168,
+        "n_low": 1
+      },
+      {
+        "category": "SPORTS",
+        "content_rating": "ALL",
+        "low_rate": 0.0129,
+        "n_apps": 232,
+        "n_low": 3
       },
       {
         "category": "TOOLS",
         "content_rating": "ALL",
-        "low_rate": 0.4259,
-        "n_apps": 54,
-        "n_low": 23
+        "low_rate": 0.044,
+        "n_apps": 568,
+        "n_low": 25
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "content_rating": "ALL",
+        "low_rate": 0.0438,
+        "n_apps": 160,
+        "n_low": 7
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "content_rating": "ALL",
+        "low_rate": 0.0234,
+        "n_apps": 128,
+        "n_low": 3
+      },
+      {
+        "category": "WEATHER",
+        "content_rating": "ALL",
+        "low_rate": 0.0,
+        "n_apps": 69,
+        "n_low": 0
+      },
+      {
+        "category": "ALL",
+        "content_rating": "Adults only 18+",
+        "low_rate": 0.0,
+        "n_apps": 3,
+        "n_low": 0
       },
       {
         "category": "ALL",
         "content_rating": "Everyone",
-        "low_rate": 0.4778,
-        "n_apps": 90,
-        "n_low": 43
+        "low_rate": 0.0312,
+        "n_apps": 5294,
+        "n_low": 165
+      },
+      {
+        "category": "ALL",
+        "content_rating": "Everyone 10+",
+        "low_rate": 0.007,
+        "n_apps": 286,
+        "n_low": 2
       },
       {
         "category": "ALL",
         "content_rating": "Mature 17+",
-        "low_rate": 0.3973,
-        "n_apps": 73,
-        "n_low": 29
+        "low_rate": 0.035,
+        "n_apps": 314,
+        "n_low": 11
       },
       {
         "category": "ALL",
         "content_rating": "Teen",
-        "low_rate": 0.4211,
-        "n_apps": 95,
-        "n_low": 40
+        "low_rate": 0.0062,
+        "n_apps": 811,
+        "n_low": 5
+      },
+      {
+        "category": "ALL",
+        "content_rating": "Unrated",
+        "low_rate": 0.0,
+        "n_apps": 1,
+        "n_low": 0
       },
       {
         "category": "ALL",
         "content_rating": "ALL",
-        "low_rate": 0.4341,
-        "n_apps": 258,
-        "n_low": 112
+        "low_rate": 0.0273,
+        "n_apps": 6709,
+        "n_low": 183
       }
     ],
     "q03_cube_lowrate_price_install": [
       {
         "install_band": "<1K",
-        "low_rate": 0.4,
-        "n_apps": 60,
-        "n_low": 24,
+        "low_rate": 0.0,
+        "n_apps": 6,
+        "n_low": 0,
         "price_type": "Free"
       },
       {
         "install_band": "100K-1M",
-        "low_rate": 0.4375,
-        "n_apps": 32,
-        "n_low": 14,
+        "low_rate": 0.034,
+        "n_apps": 1501,
+        "n_low": 51,
         "price_type": "Free"
       },
       {
         "install_band": "10K-100K",
-        "low_rate": 0.4857,
-        "n_apps": 35,
-        "n_low": 17,
+        "low_rate": 0.0801,
+        "n_apps": 1174,
+        "n_low": 94,
         "price_type": "Free"
       },
       {
         "install_band": "10M+",
-        "low_rate": 0.3611,
-        "n_apps": 36,
-        "n_low": 13,
+        "low_rate": 0.0007,
+        "n_apps": 1371,
+        "n_low": 1,
         "price_type": "Free"
       },
       {
         "install_band": "1K-10K",
-        "low_rate": 0.3784,
-        "n_apps": 37,
-        "n_low": 14,
+        "low_rate": 0.0542,
+        "n_apps": 240,
+        "n_low": 13,
         "price_type": "Free"
       },
       {
         "install_band": "1M-10M",
-        "low_rate": 0.5161,
-        "n_apps": 31,
-        "n_low": 16,
+        "low_rate": 0.0075,
+        "n_apps": 2001,
+        "n_low": 15,
         "price_type": "Free"
       },
       {
         "install_band": "<1K",
-        "low_rate": 0.5556,
+        "low_rate": 0.0,
         "n_apps": 9,
-        "n_low": 5,
+        "n_low": 0,
         "price_type": "Paid"
       },
       {
         "install_band": "100K-1M",
         "low_rate": 0.0,
-        "n_apps": 1,
+        "n_apps": 93,
         "n_low": 0,
         "price_type": "Paid"
       },
       {
         "install_band": "10K-100K",
-        "low_rate": 0.5,
-        "n_apps": 6,
-        "n_low": 3,
-        "price_type": "Paid"
-      },
-      {
-        "install_band": "10M+",
-        "low_rate": 0.2,
-        "n_apps": 5,
+        "low_rate": 0.0065,
+        "n_apps": 154,
         "n_low": 1,
         "price_type": "Paid"
       },
       {
+        "install_band": "10M+",
+        "low_rate": 0.0,
+        "n_apps": 2,
+        "n_low": 0,
+        "price_type": "Paid"
+      },
+      {
         "install_band": "1K-10K",
-        "low_rate": 1.0,
-        "n_apps": 3,
-        "n_low": 3,
+        "low_rate": 0.058,
+        "n_apps": 138,
+        "n_low": 8,
         "price_type": "Paid"
       },
       {
         "install_band": "1M-10M",
-        "low_rate": 0.6667,
-        "n_apps": 3,
-        "n_low": 2,
+        "low_rate": 0.0,
+        "n_apps": 20,
+        "n_low": 0,
         "price_type": "Paid"
       },
       {
         "install_band": "ALL",
-        "low_rate": 0.4242,
-        "n_apps": 231,
-        "n_low": 98,
+        "low_rate": 0.0276,
+        "n_apps": 6293,
+        "n_low": 174,
         "price_type": "Free"
       },
       {
         "install_band": "ALL",
-        "low_rate": 0.5185,
-        "n_apps": 27,
-        "n_low": 14,
+        "low_rate": 0.0216,
+        "n_apps": 416,
+        "n_low": 9,
         "price_type": "Paid"
       },
       {
         "install_band": "<1K",
-        "low_rate": 0.4203,
-        "n_apps": 69,
-        "n_low": 29,
+        "low_rate": 0.0,
+        "n_apps": 15,
+        "n_low": 0,
         "price_type": "ALL"
       },
       {
         "install_band": "100K-1M",
-        "low_rate": 0.4242,
-        "n_apps": 33,
-        "n_low": 14,
+        "low_rate": 0.032,
+        "n_apps": 1594,
+        "n_low": 51,
         "price_type": "ALL"
       },
       {
         "install_band": "10K-100K",
-        "low_rate": 0.4878,
-        "n_apps": 41,
-        "n_low": 20,
+        "low_rate": 0.0715,
+        "n_apps": 1328,
+        "n_low": 95,
         "price_type": "ALL"
       },
       {
         "install_band": "10M+",
-        "low_rate": 0.3415,
-        "n_apps": 41,
-        "n_low": 14,
+        "low_rate": 0.0007,
+        "n_apps": 1373,
+        "n_low": 1,
         "price_type": "ALL"
       },
       {
         "install_band": "1K-10K",
-        "low_rate": 0.425,
-        "n_apps": 40,
-        "n_low": 17,
+        "low_rate": 0.0556,
+        "n_apps": 378,
+        "n_low": 21,
         "price_type": "ALL"
       },
       {
         "install_band": "1M-10M",
-        "low_rate": 0.5294,
-        "n_apps": 34,
-        "n_low": 18,
+        "low_rate": 0.0074,
+        "n_apps": 2021,
+        "n_low": 15,
         "price_type": "ALL"
       },
       {
         "install_band": "ALL",
-        "low_rate": 0.4341,
-        "n_apps": 258,
-        "n_low": 112,
+        "low_rate": 0.0273,
+        "n_apps": 6709,
+        "n_low": 183,
         "price_type": "ALL"
       }
     ],
     "q04_window_rank_top3_in_category": [
       {
-        "app_name": "SampleApp 249",
-        "category": "BUSINESS",
-        "pct_rank": 0.9818181818181818,
-        "rating": 4.9,
+        "app_name": "X Launcher Pro - IOS Style Theme & Control Center",
+        "category": "ART_AND_DESIGN",
+        "pct_rank": 0.9607843137254902,
+        "rating": 4.8,
         "rk": 1,
-        "store_reviews": 7357
+        "store_reviews": 1216
       },
       {
-        "app_name": "SampleApp 167",
-        "category": "BUSINESS",
-        "pct_rank": 0.9818181818181818,
-        "rating": 4.9,
+        "app_name": "Cardi B Wallpaper",
+        "category": "ART_AND_DESIGN",
+        "pct_rank": 0.9607843137254902,
+        "rating": 4.8,
         "rk": 2,
-        "store_reviews": 2932
+        "store_reviews": 253
       },
       {
-        "app_name": "SampleApp 65",
-        "category": "BUSINESS",
-        "pct_rank": 0.9454545454545454,
+        "app_name": "Harley Quinn wallpapers HD",
+        "category": "ART_AND_DESIGN",
+        "pct_rank": 0.9607843137254902,
         "rating": 4.8,
         "rk": 3,
-        "store_reviews": 14345
+        "store_reviews": 192
       },
       {
-        "app_name": "SampleApp 284",
-        "category": "FAMILY",
-        "pct_rank": 0.9777777777777776,
-        "rating": 5.0,
+        "app_name": "Tickets + PDA 2018 Exam",
+        "category": "AUTO_AND_VEHICLES",
+        "pct_rank": 0.9298245614035088,
+        "rating": 4.9,
         "rk": 1,
-        "store_reviews": 19499
+        "store_reviews": 197136
       },
       {
-        "app_name": "SampleApp 78",
-        "category": "FAMILY",
-        "pct_rank": 0.9777777777777776,
-        "rating": 5.0,
+        "app_name": "Tickets SDA 2018 and Exam from the State Traffic Safety Inspectorate with Drom.ru",
+        "category": "AUTO_AND_VEHICLES",
+        "pct_rank": 0.9298245614035088,
+        "rating": 4.9,
         "rk": 2,
-        "store_reviews": 3226
+        "store_reviews": 10479
       },
       {
-        "app_name": "SampleApp 57",
-        "category": "FAMILY",
-        "pct_rank": 0.9555555555555556,
-        "rating": 4.8,
+        "app_name": "CDL Practice Test 2018 Edition",
+        "category": "AUTO_AND_VEHICLES",
+        "pct_rank": 0.9298245614035088,
+        "rating": 4.9,
         "rk": 3,
-        "store_reviews": 7091
+        "store_reviews": 7774
       },
       {
-        "app_name": "SampleApp 295",
-        "category": "GAME",
-        "pct_rank": 0.9791666666666666,
-        "rating": 4.8,
+        "app_name": "ipsy: Makeup, Beauty, and Tips",
+        "category": "BEAUTY",
+        "pct_rank": 1.0,
+        "rating": 4.9,
         "rk": 1,
-        "store_reviews": 13888
+        "store_reviews": 49790
       },
       {
-        "app_name": "SampleApp 244",
-        "category": "GAME",
-        "pct_rank": 0.9791666666666666,
+        "app_name": "Prom MakeUp Tutorial",
+        "category": "BEAUTY",
+        "pct_rank": 0.96875,
         "rating": 4.8,
         "rk": 2,
-        "store_reviews": 2826
+        "store_reviews": 104
       },
       {
-        "app_name": "SampleApp 242",
-        "category": "GAME",
-        "pct_rank": 0.9375,
+        "app_name": "Ulta Beauty",
+        "category": "BEAUTY",
+        "pct_rank": 0.78125,
         "rating": 4.7,
         "rk": 3,
-        "store_reviews": 16601
+        "store_reviews": 42050
       },
       {
-        "app_name": "SampleApp 67",
-        "category": "MEDICAL",
-        "pct_rank": 0.9615384615384616,
+        "app_name": "JW Library",
+        "category": "BOOKS_AND_REFERENCE",
+        "pct_rank": 0.9776119402985076,
         "rating": 4.9,
         "rk": 1,
-        "store_reviews": 10922
+        "store_reviews": 922752
       },
       {
-        "app_name": "SampleApp 164",
-        "category": "MEDICAL",
-        "pct_rank": 0.9615384615384616,
+        "app_name": "eBoox new: Reader for fb2 epub zip books",
+        "category": "BOOKS_AND_REFERENCE",
+        "pct_rank": 0.9776119402985076,
         "rating": 4.9,
         "rk": 2,
-        "store_reviews": 9518
+        "store_reviews": 2739
       },
       {
-        "app_name": "SampleApp 145",
-        "category": "MEDICAL",
-        "pct_rank": 0.9615384615384616,
+        "app_name": "Borneo Bible, BM Bible",
+        "category": "BOOKS_AND_REFERENCE",
+        "pct_rank": 0.9776119402985076,
         "rating": 4.9,
         "rk": 3,
-        "store_reviews": 4069
+        "store_reviews": 659
       },
       {
-        "app_name": "SampleApp 82",
-        "category": "TOOLS",
+        "app_name": "Job Search by ZipRecruiter",
+        "category": "BUSINESS",
+        "pct_rank": 0.9817073170731708,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 148945
+      },
+      {
+        "app_name": "Tiny Scanner Pro: PDF Doc Scan",
+        "category": "BUSINESS",
+        "pct_rank": 0.9817073170731708,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 10295
+      },
+      {
+        "app_name": "BZ Reminder PRO",
+        "category": "BUSINESS",
+        "pct_rank": 0.9817073170731708,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 726
+      },
+      {
+        "app_name": "WebComics",
+        "category": "COMICS",
+        "pct_rank": 0.9791666666666666,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 33783
+      },
+      {
+        "app_name": "Unicorn Pokez - Color By Number",
+        "category": "COMICS",
+        "pct_rank": 0.9791666666666666,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 516
+      },
+      {
+        "app_name": "GANMA! - All original stories free of charge for all original comics",
+        "category": "COMICS",
+        "pct_rank": 0.875,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 57106
+      },
+      {
+        "app_name": "Should I Answer?",
+        "category": "COMMUNICATION",
+        "pct_rank": 0.9904761904761904,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 237468
+      },
+      {
+        "app_name": "ClanPlay: Community and Tools for Gamers",
+        "category": "COMMUNICATION",
+        "pct_rank": 0.9904761904761904,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 34443
+      },
+      {
+        "app_name": "Morse Machine for Ham Radio",
+        "category": "COMMUNICATION",
+        "pct_rank": 0.9904761904761904,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 341
+      },
+      {
+        "app_name": "FREE LIVE TALK",
+        "category": "DATING",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 776
+      },
+      {
+        "app_name": "Online Girls Chat",
+        "category": "DATING",
+        "pct_rank": 0.9626168224299064,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 5323
+      },
+      {
+        "app_name": "Live Girls Talk - Free Video Chat",
+        "category": "DATING",
+        "pct_rank": 0.9626168224299064,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 125
+      },
+      {
+        "app_name": "Learn Japanese, Korean, Chinese Offline & Free",
+        "category": "EDUCATION",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 133136
+      },
+      {
+        "app_name": "SoloLearn: Learn to Code for Free",
+        "category": "EDUCATION",
+        "pct_rank": 0.9902912621359224,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 256079
+      },
+      {
+        "app_name": "Learn languages, grammar & vocabulary with Memrise",
+        "category": "EDUCATION",
+        "pct_rank": 0.883495145631068,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 1107948
+      },
+      {
+        "app_name": "🔥 Football Wallpapers 4K | Full HD Backgrounds 😍",
+        "category": "ENTERTAINMENT",
+        "pct_rank": 1.0,
+        "rating": 4.7,
+        "rk": 1,
+        "store_reviews": 11661
+      },
+      {
+        "app_name": "Twitch: Livestream Multiplayer Games & Esports",
+        "category": "ENTERTAINMENT",
+        "pct_rank": 0.9186046511627908,
+        "rating": 4.6,
+        "rk": 2,
+        "store_reviews": 2133296
+      },
+      {
+        "app_name": "Fandango Movies - Times + Tickets",
+        "category": "ENTERTAINMENT",
+        "pct_rank": 0.9186046511627908,
+        "rating": 4.6,
+        "rk": 3,
+        "store_reviews": 243747
+      },
+      {
+        "app_name": "Mummatikabalkuragi",
+        "category": "EVENTS",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 69
+      },
+      {
+        "app_name": "Event Manager - AllEvents.in",
+        "category": "EVENTS",
+        "pct_rank": 0.9642857142857144,
+        "rating": 4.7,
+        "rk": 2,
+        "store_reviews": 120
+      },
+      {
+        "app_name": "Vivid Seats – Event Tickets",
+        "category": "EVENTS",
+        "pct_rank": 0.7857142857142857,
+        "rating": 4.6,
+        "rk": 3,
+        "store_reviews": 8232
+      },
+      {
+        "app_name": "Barisal University App-BU Face",
+        "category": "FAMILY",
+        "pct_rank": 0.9992360580595876,
+        "rating": 5.0,
+        "rk": 1,
+        "store_reviews": 100
+      },
+      {
+        "app_name": "Master E.K",
+        "category": "FAMILY",
+        "pct_rank": 0.9992360580595876,
+        "rating": 5.0,
+        "rk": 2,
+        "store_reviews": 90
+      },
+      {
+        "app_name": "PixPanda - Color by Number Pixel Art Coloring Book",
+        "category": "FAMILY",
+        "pct_rank": 0.9923605805958748,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 55723
+      },
+      {
+        "app_name": "FD Calculator (EMI, SIP, RD & Loan Eligilibility)",
+        "category": "FINANCE",
         "pct_rank": 1.0,
         "rating": 5.0,
         "rk": 1,
-        "store_reviews": 7773
+        "store_reviews": 104
       },
       {
-        "app_name": "SampleApp 184",
-        "category": "TOOLS",
-        "pct_rank": 0.9622641509433962,
+        "app_name": "Even - organize your money, get paid early",
+        "category": "FINANCE",
+        "pct_rank": 0.9918032786885246,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 12304
+      },
+      {
+        "app_name": "Firefighters First CU",
+        "category": "FINANCE",
+        "pct_rank": 0.9918032786885246,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 495
+      },
+      {
+        "app_name": "SarashpazPapion (Cooking with Chef Bowls)",
+        "category": "FOOD_AND_DRINK",
+        "pct_rank": 1.0,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 1250
+      },
+      {
+        "app_name": "Domino's Pizza USA",
+        "category": "FOOD_AND_DRINK",
+        "pct_rank": 0.9058823529411764,
+        "rating": 4.7,
+        "rk": 2,
+        "store_reviews": 1032935
+      },
+      {
+        "app_name": "Tastely",
+        "category": "FOOD_AND_DRINK",
+        "pct_rank": 0.9058823529411764,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 611136
+      },
+      {
+        "app_name": "Solitaire: Decked Out Ad Free",
+        "category": "GAME",
+        "pct_rank": 0.9975932611311672,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 37302
+      },
+      {
+        "app_name": "The Room: Old Sins",
+        "category": "GAME",
+        "pct_rank": 0.9975932611311672,
         "rating": 4.9,
         "rk": 2,
-        "store_reviews": 9847
+        "store_reviews": 21119
       },
       {
-        "app_name": "SampleApp 258",
-        "category": "TOOLS",
-        "pct_rank": 0.9622641509433962,
+        "app_name": "Word Hunt",
+        "category": "GAME",
+        "pct_rank": 0.9975932611311672,
         "rating": 4.9,
         "rk": 3,
-        "store_reviews": 9793
+        "store_reviews": 59
+      },
+      {
+        "app_name": "Six Pack in 30 Days - Abs Workout",
+        "category": "HEALTH_AND_FITNESS",
+        "pct_rank": 0.9852941176470588,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 272337
+      },
+      {
+        "app_name": "StrongLifts 5x5 Workout Gym Log & Personal Trainer",
+        "category": "HEALTH_AND_FITNESS",
+        "pct_rank": 0.9852941176470588,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 66791
+      },
+      {
+        "app_name": "Lose Belly Fat in 30 Days - Flat Stomach",
+        "category": "HEALTH_AND_FITNESS",
+        "pct_rank": 0.9852941176470588,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 38098
+      },
+      {
+        "app_name": "Viva Decora - Decoration, Photos, Architecture, House",
+        "category": "HOUSE_AND_HOME",
+        "pct_rank": 1.0,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 3167
+      },
+      {
+        "app_name": "DIY On A Budget",
+        "category": "HOUSE_AND_HOME",
+        "pct_rank": 0.9827586206896552,
+        "rating": 4.7,
+        "rk": 2,
+        "store_reviews": 114
+      },
+      {
+        "app_name": "Houzz Interior Design Ideas",
+        "category": "HOUSE_AND_HOME",
+        "pct_rank": 0.913793103448276,
+        "rating": 4.6,
+        "rk": 3,
+        "store_reviews": 353813
+      },
+      {
+        "app_name": "Girls Nancy Ajram Without Net",
+        "category": "LIBRARIES_AND_DEMO",
+        "pct_rank": 0.98,
+        "rating": 4.7,
+        "rk": 1,
+        "store_reviews": 2639
+      },
+      {
+        "app_name": "Blackpink as if it's your last",
+        "category": "LIBRARIES_AND_DEMO",
+        "pct_rank": 0.98,
+        "rating": 4.7,
+        "rk": 2,
+        "store_reviews": 831
+      },
+      {
+        "app_name": "Best New Ringtones 2018 Free 🔥 For Android™",
+        "category": "LIBRARIES_AND_DEMO",
+        "pct_rank": 0.88,
+        "rating": 4.6,
+        "rk": 3,
+        "store_reviews": 3014
+      },
+      {
+        "app_name": "Ríos de Fe",
+        "category": "LIFESTYLE",
+        "pct_rank": 0.9954954954954957,
+        "rating": 5.0,
+        "rk": 1,
+        "store_reviews": 141
+      },
+      {
+        "app_name": "Oración CX",
+        "category": "LIFESTYLE",
+        "pct_rank": 0.9954954954954957,
+        "rating": 5.0,
+        "rk": 2,
+        "store_reviews": 103
+      },
+      {
+        "app_name": "Be My Eyes - Helping the blind",
+        "category": "LIFESTYLE",
+        "pct_rank": 0.9684684684684683,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 8418
+      },
+      {
+        "app_name": "BL Taxi",
+        "category": "MAPS_AND_NAVIGATION",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 124
+      },
+      {
+        "app_name": "GPS Speedometer and Odometer",
+        "category": "MAPS_AND_NAVIGATION",
+        "pct_rank": 0.9896907216494846,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 15865
+      },
+      {
+        "app_name": "Sygic Car Navigation",
+        "category": "MAPS_AND_NAVIGATION",
+        "pct_rank": 0.9587628865979382,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 162049
+      },
+      {
+        "app_name": "Doctor Finder CY",
+        "category": "MEDICAL",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 57
+      },
+      {
+        "app_name": "Ovia Pregnancy Tracker & Baby Countdown Calendar",
+        "category": "MEDICAL",
+        "pct_rank": 0.9580838323353292,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 102858
+      },
+      {
+        "app_name": "Pregnancy Week By Week",
+        "category": "MEDICAL",
+        "pct_rank": 0.9580838323353292,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 78825
+      },
+      {
+        "app_name": "M+",
+        "category": "NEWS_AND_MAGAZINES",
+        "pct_rank": 0.994011976047904,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 198
+      },
+      {
+        "app_name": "Égalité et Réconciliation",
+        "category": "NEWS_AND_MAGAZINES",
+        "pct_rank": 0.994011976047904,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 58
+      },
+      {
+        "app_name": "أحداث وحقائق | خبر عاجل في اخبار العالم",
+        "category": "NEWS_AND_MAGAZINES",
+        "pct_rank": 0.9880239520958084,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 311
+      },
+      {
+        "app_name": "White Noise for Baby",
+        "category": "PARENTING",
+        "pct_rank": 1.0,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 717
+      },
+      {
+        "app_name": "The first year of a baby's life",
+        "category": "PARENTING",
+        "pct_rank": 0.902439024390244,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 7505
+      },
+      {
+        "app_name": "Rainbow - Journal & Activities",
+        "category": "PARENTING",
+        "pct_rank": 0.902439024390244,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 6668
+      },
+      {
+        "app_name": "BTS j-hope LINE Launcher theme",
+        "category": "PERSONALIZATION",
+        "pct_rank": 0.9957081545064378,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 934
+      },
+      {
+        "app_name": "FAV KWGT",
+        "category": "PERSONALIZATION",
+        "pct_rank": 0.9957081545064378,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 88
+      },
+      {
+        "app_name": "BTS V LINE Launcher theme",
+        "category": "PERSONALIZATION",
+        "pct_rank": 0.965665236051502,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 3283
+      },
+      {
+        "app_name": "QR Code Pro",
+        "category": "PRODUCTIVITY",
+        "pct_rank": 0.995850622406639,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 5865
+      },
+      {
+        "app_name": "BD Attendance",
+        "category": "PRODUCTIVITY",
+        "pct_rank": 0.995850622406639,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 93
+      },
+      {
+        "app_name": "Mobile Security & Antivirus",
+        "category": "PRODUCTIVITY",
+        "pct_rank": 0.933609958506224,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 564759
+      },
+      {
+        "app_name": "FreePrints – Free Photos Delivered",
+        "category": "PHOTOGRAPHY",
+        "pct_rank": 0.9956140350877192,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 109500
+      },
+      {
+        "app_name": "Pocket AC",
+        "category": "PHOTOGRAPHY",
+        "pct_rank": 0.9956140350877192,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 130
+      },
+      {
+        "app_name": "Video Editor Music,Cut,No Crop",
+        "category": "PHOTOGRAPHY",
+        "pct_rank": 0.9605263157894736,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 2163282
+      },
+      {
+        "app_name": "Mercado Libre: Find your favorite brands",
+        "category": "SHOPPING",
+        "pct_rank": 0.95,
+        "rating": 4.7,
+        "rk": 1,
+        "store_reviews": 3860225
+      },
+      {
+        "app_name": "The birth",
+        "category": "SHOPPING",
+        "pct_rank": 0.95,
+        "rating": 4.7,
+        "rk": 2,
+        "store_reviews": 1084945
+      },
+      {
+        "app_name": "ASOS",
+        "category": "SHOPPING",
+        "pct_rank": 0.95,
+        "rating": 4.7,
+        "rk": 3,
+        "store_reviews": 181823
+      },
+      {
+        "app_name": "EXO-L Amino for EXO Fans",
+        "category": "SOCIAL",
+        "pct_rank": 0.9880239520958084,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 5677
+      },
+      {
+        "app_name": "Eddsworld Amino",
+        "category": "SOCIAL",
+        "pct_rank": 0.9880239520958084,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 3071
+      },
+      {
+        "app_name": "DC Comics Amino",
+        "category": "SOCIAL",
+        "pct_rank": 0.9880239520958084,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 117
+      },
+      {
+        "app_name": "FC Porto",
+        "category": "SPORTS",
+        "pct_rank": 0.987012987012987,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 15883
+      },
+      {
+        "app_name": "FK Željezničar",
+        "category": "SPORTS",
+        "pct_rank": 0.987012987012987,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 1420
+      },
+      {
+        "app_name": "FK Crvena zvezda",
+        "category": "SPORTS",
+        "pct_rank": 0.987012987012987,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 1211
+      },
+      {
+        "app_name": "EV Calculator",
+        "category": "TOOLS",
+        "pct_rank": 0.9964726631393298,
+        "rating": 4.9,
+        "rk": 1,
+        "store_reviews": 85
+      },
+      {
+        "app_name": "BatControl Pro",
+        "category": "TOOLS",
+        "pct_rank": 0.9964726631393298,
+        "rating": 4.9,
+        "rk": 2,
+        "store_reviews": 83
+      },
+      {
+        "app_name": "FG On-The-Go",
+        "category": "TOOLS",
+        "pct_rank": 0.9964726631393298,
+        "rating": 4.9,
+        "rk": 3,
+        "store_reviews": 55
+      },
+      {
+        "app_name": "TravelPirates",
+        "category": "TRAVEL_AND_LOCAL",
+        "pct_rank": 0.9874213836477987,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 43054
+      },
+      {
+        "app_name": "Yoriza Pension - travel, lodging, pension, camping, caravan, pool villas accommodation discount",
+        "category": "TRAVEL_AND_LOCAL",
+        "pct_rank": 0.9874213836477987,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 17882
+      },
+      {
+        "app_name": "BG Metro - Red voznje",
+        "category": "TRAVEL_AND_LOCAL",
+        "pct_rank": 0.9874213836477987,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 89
+      },
+      {
+        "app_name": "DU Recorder – Screen Recorder, Video Editor, Live",
+        "category": "VIDEO_PLAYERS",
+        "pct_rank": 0.9763779527559056,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 2588730
+      },
+      {
+        "app_name": "Video Downloader - for Instagram Repost App",
+        "category": "VIDEO_PLAYERS",
+        "pct_rank": 0.9763779527559056,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 332623
+      },
+      {
+        "app_name": "Video Player All Format",
+        "category": "VIDEO_PLAYERS",
+        "pct_rank": 0.9763779527559056,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 259003
+      },
+      {
+        "app_name": "Weather forecast",
+        "category": "WEATHER",
+        "pct_rank": 0.9705882352941176,
+        "rating": 4.8,
+        "rk": 1,
+        "store_reviews": 159455
+      },
+      {
+        "app_name": "Weather Live Pro",
+        "category": "WEATHER",
+        "pct_rank": 0.9705882352941176,
+        "rating": 4.8,
+        "rk": 2,
+        "store_reviews": 17493
+      },
+      {
+        "app_name": "Live Weather Pro",
+        "category": "WEATHER",
+        "pct_rank": 0.9705882352941176,
+        "rating": 4.8,
+        "rk": 3,
+        "store_reviews": 892
       }
     ],
     "q05_share_of_total_by_category": [
       {
-        "category": "BUSINESS",
-        "n_apps": 56,
-        "share_of_total": 0.2162
-      },
-      {
-        "category": "TOOLS",
-        "n_apps": 55,
-        "share_of_total": 0.2124
-      },
-      {
-        "category": "MEDICAL",
-        "n_apps": 53,
-        "share_of_total": 0.2046
+        "category": "FAMILY",
+        "n_apps": 1645,
+        "share_of_total": 0.2011
       },
       {
         "category": "GAME",
-        "n_apps": 49,
-        "share_of_total": 0.1892
+        "n_apps": 897,
+        "share_of_total": 0.1097
       },
       {
-        "category": "FAMILY",
-        "n_apps": 46,
-        "share_of_total": 0.1776
+        "category": "TOOLS",
+        "n_apps": 717,
+        "share_of_total": 0.0877
+      },
+      {
+        "category": "LIFESTYLE",
+        "n_apps": 301,
+        "share_of_total": 0.0368
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "n_apps": 301,
+        "share_of_total": 0.0368
+      },
+      {
+        "category": "FINANCE",
+        "n_apps": 300,
+        "share_of_total": 0.0367
+      },
+      {
+        "category": "PERSONALIZATION",
+        "n_apps": 298,
+        "share_of_total": 0.0364
+      },
+      {
+        "category": "MEDICAL",
+        "n_apps": 290,
+        "share_of_total": 0.0355
+      },
+      {
+        "category": "BUSINESS",
+        "n_apps": 262,
+        "share_of_total": 0.032
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "n_apps": 261,
+        "share_of_total": 0.0319
+      },
+      {
+        "category": "SPORTS",
+        "n_apps": 260,
+        "share_of_total": 0.0318
+      },
+      {
+        "category": "COMMUNICATION",
+        "n_apps": 256,
+        "share_of_total": 0.0313
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "n_apps": 243,
+        "share_of_total": 0.0297
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "n_apps": 204,
+        "share_of_total": 0.0249
+      },
+      {
+        "category": "SOCIAL",
+        "n_apps": 202,
+        "share_of_total": 0.0247
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "n_apps": 187,
+        "share_of_total": 0.0229
+      },
+      {
+        "category": "SHOPPING",
+        "n_apps": 180,
+        "share_of_total": 0.022
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "n_apps": 169,
+        "share_of_total": 0.0207
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "n_apps": 149,
+        "share_of_total": 0.0182
+      },
+      {
+        "category": "DATING",
+        "n_apps": 133,
+        "share_of_total": 0.0163
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "n_apps": 118,
+        "share_of_total": 0.0144
+      },
+      {
+        "category": "EDUCATION",
+        "n_apps": 106,
+        "share_of_total": 0.013
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "n_apps": 94,
+        "share_of_total": 0.0115
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "n_apps": 87,
+        "share_of_total": 0.0106
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "n_apps": 73,
+        "share_of_total": 0.0089
+      },
+      {
+        "category": "WEATHER",
+        "n_apps": 72,
+        "share_of_total": 0.0088
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "n_apps": 64,
+        "share_of_total": 0.0078
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "n_apps": 61,
+        "share_of_total": 0.0075
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "n_apps": 59,
+        "share_of_total": 0.0072
+      },
+      {
+        "category": "COMICS",
+        "n_apps": 54,
+        "share_of_total": 0.0066
+      },
+      {
+        "category": "PARENTING",
+        "n_apps": 50,
+        "share_of_total": 0.0061
+      },
+      {
+        "category": "EVENTS",
+        "n_apps": 45,
+        "share_of_total": 0.0055
+      },
+      {
+        "category": "BEAUTY",
+        "n_apps": 42,
+        "share_of_total": 0.0051
       }
     ],
     "q06_drill_across_apps_and_reviews": [
       {
-        "avg_rating": 3.295,
+        "avg_rating": 4.359,
+        "category": "ART_AND_DESIGN",
+        "n_apps": 59,
+        "n_negative": 47,
+        "n_reviews": 334,
+        "negative_share": 0.1407
+      },
+      {
+        "avg_rating": 4.19,
+        "category": "AUTO_AND_VEHICLES",
+        "n_apps": 73,
+        "n_negative": 17,
+        "n_reviews": 283,
+        "negative_share": 0.0601
+      },
+      {
+        "avg_rating": 4.279,
+        "category": "BEAUTY",
+        "n_apps": 42,
+        "n_negative": 60,
+        "n_reviews": 317,
+        "negative_share": 0.1893
+      },
+      {
+        "avg_rating": 4.345,
+        "category": "BOOKS_AND_REFERENCE",
+        "n_apps": 169,
+        "n_negative": 84,
+        "n_reviews": 617,
+        "negative_share": 0.1361
+      },
+      {
+        "avg_rating": 4.099,
         "category": "BUSINESS",
-        "n_apps": 56,
-        "n_negative": 101,
-        "n_reviews": 323,
-        "negative_share": 0.3127
+        "n_apps": 262,
+        "n_negative": 115,
+        "n_reviews": 657,
+        "negative_share": 0.175
       },
       {
-        "avg_rating": 3.367,
+        "avg_rating": 4.181,
+        "category": "COMICS",
+        "n_apps": 54,
+        "n_negative": 1,
+        "n_reviews": 45,
+        "negative_share": 0.0222
+      },
+      {
+        "avg_rating": 4.121,
+        "category": "COMMUNICATION",
+        "n_apps": 256,
+        "n_negative": 177,
+        "n_reviews": 855,
+        "negative_share": 0.207
+      },
+      {
+        "avg_rating": 3.98,
+        "category": "DATING",
+        "n_apps": 133,
+        "n_negative": 228,
+        "n_reviews": 1087,
+        "negative_share": 0.2098
+      },
+      {
+        "avg_rating": 4.355,
+        "category": "EDUCATION",
+        "n_apps": 106,
+        "n_negative": 63,
+        "n_reviews": 519,
+        "negative_share": 0.1214
+      },
+      {
+        "avg_rating": 4.13,
+        "category": "ENTERTAINMENT",
+        "n_apps": 87,
+        "n_negative": 174,
+        "n_reviews": 701,
+        "negative_share": 0.2482
+      },
+      {
+        "avg_rating": 4.436,
+        "category": "EVENTS",
+        "n_apps": 45,
+        "n_negative": 16,
+        "n_reviews": 156,
+        "negative_share": 0.1026
+      },
+      {
+        "avg_rating": 4.184,
         "category": "FAMILY",
-        "n_apps": 46,
-        "n_negative": 76,
-        "n_reviews": 258,
-        "negative_share": 0.2946
+        "n_apps": 1645,
+        "n_negative": 667,
+        "n_reviews": 2463,
+        "negative_share": 0.2708
       },
       {
-        "avg_rating": 3.161,
+        "avg_rating": 4.117,
+        "category": "FINANCE",
+        "n_apps": 300,
+        "n_negative": 300,
+        "n_reviews": 1336,
+        "negative_share": 0.2246
+      },
+      {
+        "avg_rating": 4.171,
+        "category": "FOOD_AND_DRINK",
+        "n_apps": 94,
+        "n_negative": 78,
+        "n_reviews": 583,
+        "negative_share": 0.1338
+      },
+      {
+        "avg_rating": 4.246,
         "category": "GAME",
-        "n_apps": 49,
-        "n_negative": 94,
-        "n_reviews": 295,
-        "negative_share": 0.3186
+        "n_apps": 897,
+        "n_negative": 1430,
+        "n_reviews": 3954,
+        "negative_share": 0.3617
       },
       {
-        "avg_rating": 3.334,
+        "avg_rating": 4.247,
+        "category": "HEALTH_AND_FITNESS",
+        "n_apps": 243,
+        "n_negative": 178,
+        "n_reviews": 1621,
+        "negative_share": 0.1098
+      },
+      {
+        "avg_rating": 4.141,
+        "category": "HOUSE_AND_HOME",
+        "n_apps": 61,
+        "n_negative": 79,
+        "n_reviews": 445,
+        "negative_share": 0.1775
+      },
+      {
+        "avg_rating": 4.178,
+        "category": "LIBRARIES_AND_DEMO",
+        "n_apps": 64,
+        "n_negative": 51,
+        "n_reviews": 332,
+        "negative_share": 0.1536
+      },
+      {
+        "avg_rating": 4.093,
+        "category": "LIFESTYLE",
+        "n_apps": 301,
+        "n_negative": 143,
+        "n_reviews": 834,
+        "negative_share": 0.1715
+      },
+      {
+        "avg_rating": 4.036,
+        "category": "MAPS_AND_NAVIGATION",
+        "n_apps": 118,
+        "n_negative": 27,
+        "n_reviews": 189,
+        "negative_share": 0.1429
+      },
+      {
+        "avg_rating": 4.166,
         "category": "MEDICAL",
-        "n_apps": 53,
-        "n_negative": 86,
-        "n_reviews": 265,
-        "negative_share": 0.3245
+        "n_apps": 290,
+        "n_negative": 179,
+        "n_reviews": 1156,
+        "negative_share": 0.1548
       },
       {
-        "avg_rating": 3.362,
+        "avg_rating": 4.122,
+        "category": "NEWS_AND_MAGAZINES",
+        "n_apps": 204,
+        "n_negative": 171,
+        "n_reviews": 733,
+        "negative_share": 0.2333
+      },
+      {
+        "avg_rating": 4.3,
+        "category": "PARENTING",
+        "n_apps": 50,
+        "n_negative": 23,
+        "n_reviews": 256,
+        "negative_share": 0.0898
+      },
+      {
+        "avg_rating": 4.332,
+        "category": "PERSONALIZATION",
+        "n_apps": 298,
+        "n_negative": 140,
+        "n_reviews": 961,
+        "negative_share": 0.1457
+      },
+      {
+        "avg_rating": 4.183,
+        "category": "PRODUCTIVITY",
+        "n_apps": 301,
+        "n_negative": 208,
+        "n_reviews": 1135,
+        "negative_share": 0.1833
+      },
+      {
+        "avg_rating": 4.159,
+        "category": "PHOTOGRAPHY",
+        "n_apps": 261,
+        "n_negative": 184,
+        "n_reviews": 906,
+        "negative_share": 0.2031
+      },
+      {
+        "avg_rating": 4.231,
+        "category": "SHOPPING",
+        "n_apps": 180,
+        "n_negative": 126,
+        "n_reviews": 649,
+        "negative_share": 0.1941
+      },
+      {
+        "avg_rating": 4.247,
+        "category": "SOCIAL",
+        "n_apps": 202,
+        "n_negative": 190,
+        "n_reviews": 661,
+        "negative_share": 0.2874
+      },
+      {
+        "avg_rating": 4.216,
+        "category": "SPORTS",
+        "n_apps": 260,
+        "n_negative": 284,
+        "n_reviews": 1216,
+        "negative_share": 0.2336
+      },
+      {
+        "avg_rating": 4.041,
         "category": "TOOLS",
-        "n_apps": 55,
-        "n_negative": 102,
-        "n_reviews": 324,
-        "negative_share": 0.3148
+        "n_apps": 717,
+        "n_negative": 239,
+        "n_reviews": 1398,
+        "negative_share": 0.171
+      },
+      {
+        "avg_rating": 4.07,
+        "category": "TRAVEL_AND_LOCAL",
+        "n_apps": 187,
+        "n_negative": 267,
+        "n_reviews": 1331,
+        "negative_share": 0.2006
+      },
+      {
+        "avg_rating": 4.045,
+        "category": "VIDEO_PLAYERS",
+        "n_apps": 149,
+        "n_negative": 83,
+        "n_reviews": 326,
+        "negative_share": 0.2546
+      },
+      {
+        "avg_rating": 4.243,
+        "category": "WEATHER",
+        "n_apps": 72,
+        "n_negative": 28,
+        "n_reviews": 194,
+        "negative_share": 0.1443
       }
     ]
   },
@@ -633,14 +3104,14 @@
   },
   "parts": {},
   "warehouse": {
-    "dw.dim_category": 8,
-    "dw.dim_content_rating": 4,
-    "dw.dim_date": 245,
+    "dw.dim_category": 72,
+    "dw.dim_content_rating": 7,
+    "dw.dim_date": 1378,
     "dw.dim_install": 7,
     "dw.dim_price": 6,
     "dw.dim_size": 6,
-    "dw.fact_app": 294,
-    "dw.fact_review": 1465,
+    "dw.fact_app": 9638,
+    "dw.fact_review": 28250,
     "mart.review_topic": 0
   }
 }
