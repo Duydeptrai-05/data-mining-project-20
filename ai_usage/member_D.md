@@ -3,3 +3,8 @@
 
 | Ngày | Công cụ | Dùng cho việc gì | Prompt chính (tóm tắt) | Em đã kiểm tra/sửa gì |
 |---|---|---|---|---|
+| 01–02/11/2026 | Claude (claude.ai) | D1: dựng môi trường (Git, Python, Docker, Postgres), chạy run_all.py bằng dữ liệu giả rồi dữ liệu thật; cài Superset, kết nối bằng role superset_ro | Hỏi cách làm từng bước, dán ảnh màn hình và dòng lỗi (WSL, thiếu driver psycopg2, lỗi "159.0" khi nạp staging) | Tự chạy từng lệnh; số app 9 638 và review 28 250 khớp với số A thông báo; bản vá load_staging.py do Claude viết, tự chạy lại pipeline và mở PR cho B duyệt |
+| 02–03/11/2026 | Claude (claude.ai) | D2–D4: TF-IDF, từ điển 8 chủ đề (bản đầu, rồi vòng 2 sửa theo output), rút 120 mẫu nhãn tay (seed 42) | Dán danh sách từ khoá và bảng đếm, nhờ gom chủ đề và viết code gán chủ đề, rút mẫu | Tự chạy từng ô; tự quyết đóng băng từ điển; kiểm tra mẫu có 12 review mỗi chủ đề và 24 review khac; file nhãn không bị ghi đè |
+| 03–04/11/2026 | Google Dịch | D6: hiểu nghĩa review tiếng Anh khi gán nhãn | Dán review vào Google Dịch để đọc | Tự đọc và tự chọn nhãn cho 80 review (sample_id 41–120); không dùng AI để gán nhãn; kiểm tra đủ 80/80 và nhãn hợp lệ |
+| 04/11/2026 | Claude (claude.ai) | D7: tính độ đồng thuận A–D, precision kèm khoảng Wilson, ghi mart.review_topic | Nhờ viết code, diễn giải kết quả (đồng thuận 65%, kappa 0,58; precision gộp 0,36 và 0,52) | Tự chạy lại, tổng 6 057 review khớp bảng đếm; không sửa từ điển sau khi có số đo |
+| 04–05/11/2026 | Claude (claude.ai) | D8: chart 4 trên Superset (truy vấn tạo dataset, cấu hình, tiêu đề, chú thích precision) | Dán ảnh chart và kết quả SQL, nhờ chọn kết luận phù hợp với số liệu | Tự chạy truy vấn; đối chiếu bảng chủ đề hàng đầu với precision; chọn không kết luận bằng thiet_bi |
