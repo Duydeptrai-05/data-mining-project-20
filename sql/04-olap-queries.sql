@@ -99,3 +99,24 @@ SELECT a.category, a.n_apps, a.avg_rating,
 FROM app_agg a
 LEFT JOIN rev_agg r USING (category)
 ORDER BY a.category;
+
+-- @query q07_rank_bias_raw_vs_threshold
+-- Câu hỏi (đạo đức, C6): xếp hạng thô (chỉ theo điểm) có bị app ít đánh giá chiếm chỗ không?
+-- Thứ hạng thô: RANK() chỉ theo điểm, KHÔNG lọc ngưỡng; hoà điểm cùng hạng nên top-10 có thể > 10 app.
+-- Đếm, trong top-10 thô của từng danh mục, số app có store_reviews < min_store_reviews.
+-- Số này phải khớp nb05 (nb05_ethics_rank_by_category: n_top10_raw, n_top10_raw_thin).
+WITH raw_rank AS (
+  SELECT c.category, f.store_reviews,
+         RANK() OVER (PARTITION BY c.category ORDER BY f.rating DESC) AS rk_raw
+  FROM dw.fact_app f
+  JOIN dw.dim_category c USING (category_key)
+  WHERE f.rating IS NOT NULL
+)
+SELECT r.category,
+       COUNT(*) FILTER (WHERE r.rk_raw <= 10)                                                     AS n_top10_raw,
+       COUNT(*) FILTER (WHERE r.rk_raw <= 10 AND r.store_reviews < prm.min_store_reviews)         AS n_top10_raw_thin,
+       ROUND(COUNT(*) FILTER (WHERE r.rk_raw <= 10 AND r.store_reviews < prm.min_store_reviews)::numeric
+             / NULLIF(COUNT(*) FILTER (WHERE r.rk_raw <= 10), 0), 4)                              AS share_thin_in_top10
+FROM raw_rank r CROSS JOIN mart.params prm
+GROUP BY r.category, prm.min_store_reviews
+ORDER BY n_top10_raw_thin DESC, r.category;

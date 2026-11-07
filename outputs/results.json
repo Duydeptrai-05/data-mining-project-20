@@ -1,5 +1,5 @@
 {
-  "git_commit": "f1790c8",
+  "git_commit": "e700a27",
   "olap": {
     "q01_rollup_category_pricetype": [
       {
@@ -3095,6 +3095,206 @@
         "n_reviews": 194,
         "negative_share": 0.1443
       }
+    ],
+    "q07_rank_bias_raw_vs_threshold": [
+      {
+        "category": "FAMILY",
+        "n_top10_raw": 67,
+        "n_top10_raw_thin": 65,
+        "share_thin_in_top10": 0.9701
+      },
+      {
+        "category": "LIFESTYLE",
+        "n_top10_raw": 29,
+        "n_top10_raw_thin": 27,
+        "share_thin_in_top10": 0.931
+      },
+      {
+        "category": "MEDICAL",
+        "n_top10_raw": 25,
+        "n_top10_raw_thin": 25,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "BUSINESS",
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 18,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "TOOLS",
+        "n_top10_raw": 17,
+        "n_top10_raw_thin": 17,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "GAME",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 12,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 12,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "EVENTS",
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 10,
+        "share_thin_in_top10": 0.9091
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 10,
+        "share_thin_in_top10": 0.8333
+      },
+      {
+        "category": "PERSONALIZATION",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 10,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 10,
+        "share_thin_in_top10": 1.0
+      },
+      {
+        "category": "SHOPPING",
+        "n_top10_raw": 19,
+        "n_top10_raw_thin": 10,
+        "share_thin_in_top10": 0.5263
+      },
+      {
+        "category": "FINANCE",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 9,
+        "share_thin_in_top10": 0.9
+      },
+      {
+        "category": "SOCIAL",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 9,
+        "share_thin_in_top10": 0.75
+      },
+      {
+        "category": "COMMUNICATION",
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 8,
+        "share_thin_in_top10": 0.7273
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 8,
+        "share_thin_in_top10": 0.4444
+      },
+      {
+        "category": "DATING",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 7,
+        "share_thin_in_top10": 0.5833
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 6,
+        "share_thin_in_top10": 0.6
+      },
+      {
+        "category": "SPORTS",
+        "n_top10_raw": 14,
+        "n_top10_raw_thin": 5,
+        "share_thin_in_top10": 0.3571
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 3,
+        "share_thin_in_top10": 0.1667
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 3,
+        "share_thin_in_top10": 0.25
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 3,
+        "share_thin_in_top10": 0.3
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 3,
+        "share_thin_in_top10": 0.2308
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 3,
+        "share_thin_in_top10": 0.25
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 2,
+        "share_thin_in_top10": 0.2
+      },
+      {
+        "category": "COMICS",
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 2,
+        "share_thin_in_top10": 0.1538
+      },
+      {
+        "category": "EDUCATION",
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 2,
+        "share_thin_in_top10": 0.1333
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 2,
+        "share_thin_in_top10": 0.1667
+      },
+      {
+        "category": "PARENTING",
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 2,
+        "share_thin_in_top10": 0.1538
+      },
+      {
+        "category": "BEAUTY",
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 1,
+        "share_thin_in_top10": 0.0909
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 1,
+        "share_thin_in_top10": 0.0667
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 0,
+        "share_thin_in_top10": 0.0
+      },
+      {
+        "category": "WEATHER",
+        "n_top10_raw": 22,
+        "n_top10_raw_thin": 0,
+        "share_thin_in_top10": 0.0
+      }
     ]
   },
   "params": {
@@ -3103,6 +3303,1699 @@
     "min_store_reviews": 50
   },
   "parts": {
+    "nb03_cross_category_pricetype": [
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "enough_n": false,
+        "hi": 0.6993581574175981,
+        "k": 1,
+        "lo": 0.04558726080970055,
+        "n": 4,
+        "price_type": "Paid",
+        "rate": 0.25
+      },
+      {
+        "category": "LIFESTYLE",
+        "enough_n": true,
+        "hi": 0.1438452773803391,
+        "k": 20,
+        "lo": 0.06310882435572487,
+        "n": 208,
+        "price_type": "Free",
+        "rate": 0.09615384615384616
+      },
+      {
+        "category": "TOOLS",
+        "enough_n": true,
+        "hi": 0.22065105808571023,
+        "k": 4,
+        "lo": 0.03766224880557388,
+        "n": 42,
+        "price_type": "Paid",
+        "rate": 0.09523809523809523
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "enough_n": false,
+        "hi": 0.37735843645159567,
+        "k": 1,
+        "lo": 0.016232172885884855,
+        "n": 11,
+        "price_type": "Paid",
+        "rate": 0.09090909090909091
+      },
+      {
+        "category": "COMMUNICATION",
+        "enough_n": false,
+        "hi": 0.31468704424151117,
+        "k": 1,
+        "lo": 0.012722215247890939,
+        "n": 14,
+        "price_type": "Paid",
+        "rate": 0.07142857142857142
+      },
+      {
+        "category": "MEDICAL",
+        "enough_n": true,
+        "hi": 0.12634191819174667,
+        "k": 9,
+        "lo": 0.03684711914499425,
+        "n": 130,
+        "price_type": "Free",
+        "rate": 0.06923076923076923
+      },
+      {
+        "category": "DATING",
+        "enough_n": true,
+        "hi": 0.1289154633356414,
+        "k": 7,
+        "lo": 0.03204830428813078,
+        "n": 107,
+        "price_type": "Free",
+        "rate": 0.06542056074766354
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "enough_n": true,
+        "hi": 0.10446881648595507,
+        "k": 12,
+        "lo": 0.0355495629094619,
+        "n": 195,
+        "price_type": "Free",
+        "rate": 0.06153846153846154
+      },
+      {
+        "category": "FINANCE",
+        "enough_n": true,
+        "hi": 0.0860482323954923,
+        "k": 12,
+        "lo": 0.02907453835051248,
+        "n": 238,
+        "price_type": "Free",
+        "rate": 0.05042016806722689
+      },
+      {
+        "category": "BUSINESS",
+        "enough_n": true,
+        "hi": 0.09555097917552015,
+        "k": 8,
+        "lo": 0.025550596478834536,
+        "n": 160,
+        "price_type": "Free",
+        "rate": 0.05
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "enough_n": true,
+        "hi": 0.09084401291016404,
+        "k": 7,
+        "lo": 0.02219003374649918,
+        "n": 154,
+        "price_type": "Free",
+        "rate": 0.045454545454545456
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "enough_n": true,
+        "hi": 0.10435645781881736,
+        "k": 4,
+        "lo": 0.016670548150042715,
+        "n": 94,
+        "price_type": "Free",
+        "rate": 0.0425531914893617
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "enough_n": true,
+        "hi": 0.08447348048014569,
+        "k": 7,
+        "lo": 0.02057424428963385,
+        "n": 166,
+        "price_type": "Free",
+        "rate": 0.04216867469879518
+      },
+      {
+        "category": "TOOLS",
+        "enough_n": true,
+        "hi": 0.060260396561803285,
+        "k": 21,
+        "lo": 0.026258802828004225,
+        "n": 526,
+        "price_type": "Free",
+        "rate": 0.039923954372623575
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "enough_n": true,
+        "hi": 0.06740826815770443,
+        "k": 8,
+        "lo": 0.017806190303379075,
+        "n": 229,
+        "price_type": "Free",
+        "rate": 0.034934497816593885
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "enough_n": true,
+        "hi": 0.058735171711673625,
+        "k": 6,
+        "lo": 0.0126737475449301,
+        "n": 218,
+        "price_type": "Free",
+        "rate": 0.027522935779816515
+      },
+      {
+        "category": "FAMILY",
+        "enough_n": true,
+        "hi": 0.038367909415444684,
+        "k": 33,
+        "lo": 0.01964758615413982,
+        "n": 1200,
+        "price_type": "Free",
+        "rate": 0.0275
+      },
+      {
+        "category": "MEDICAL",
+        "enough_n": true,
+        "hi": 0.1349487611595213,
+        "k": 1,
+        "lo": 0.004660587685768783,
+        "n": 38,
+        "price_type": "Paid",
+        "rate": 0.02631578947368421
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "enough_n": true,
+        "hi": 0.0687201281845915,
+        "k": 3,
+        "lo": 0.00826161867185984,
+        "n": 124,
+        "price_type": "Free",
+        "rate": 0.024193548387096774
+      },
+      {
+        "category": "COMICS",
+        "enough_n": true,
+        "hi": 0.10693521523391616,
+        "k": 1,
+        "lo": 0.0036116725898252405,
+        "n": 49,
+        "price_type": "Free",
+        "rate": 0.02040816326530612
+      },
+      {
+        "category": "COMMUNICATION",
+        "enough_n": true,
+        "hi": 0.051035541935739795,
+        "k": 4,
+        "lo": 0.00792369332487371,
+        "n": 197,
+        "price_type": "Free",
+        "rate": 0.02030456852791878
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "enough_n": true,
+        "hi": 0.09290749178567684,
+        "k": 1,
+        "lo": 0.003103664651408093,
+        "n": 57,
+        "price_type": "Free",
+        "rate": 0.017543859649122806
+      },
+      {
+        "category": "SPORTS",
+        "enough_n": true,
+        "hi": 0.04021413376386146,
+        "k": 3,
+        "lo": 0.004756590127892701,
+        "n": 215,
+        "price_type": "Free",
+        "rate": 0.013953488372093023
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "enough_n": true,
+        "hi": 0.064395437507714,
+        "k": 1,
+        "lo": 0.002104583087549225,
+        "n": 84,
+        "price_type": "Free",
+        "rate": 0.011904761904761904
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "enough_n": true,
+        "hi": 0.06367170882493911,
+        "k": 1,
+        "lo": 0.002079787134664092,
+        "n": 85,
+        "price_type": "Free",
+        "rate": 0.011764705882352941
+      },
+      {
+        "category": "FAMILY",
+        "enough_n": true,
+        "hi": 0.0497056520793305,
+        "k": 1,
+        "lo": 0.0016065753043216016,
+        "n": 110,
+        "price_type": "Paid",
+        "rate": 0.00909090909090909
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "enough_n": true,
+        "hi": 0.04228543986355276,
+        "k": 1,
+        "lo": 0.0013591742355797132,
+        "n": 130,
+        "price_type": "Free",
+        "rate": 0.007692307692307693
+      },
+      {
+        "category": "SHOPPING",
+        "enough_n": true,
+        "hi": 0.03454898596247918,
+        "k": 1,
+        "lo": 0.001104131769382205,
+        "n": 160,
+        "price_type": "Free",
+        "rate": 0.00625
+      },
+      {
+        "category": "SOCIAL",
+        "enough_n": true,
+        "hi": 0.033134462498692306,
+        "k": 1,
+        "lo": 0.00105781647748409,
+        "n": 167,
+        "price_type": "Free",
+        "rate": 0.005988023952095809
+      },
+      {
+        "category": "GAME",
+        "enough_n": true,
+        "hi": 0.011333232207968974,
+        "k": 3,
+        "lo": 0.0013190360776724466,
+        "n": 774,
+        "price_type": "Free",
+        "rate": 0.003875968992248062
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "enough_n": true,
+        "hi": 0.07269781922049637,
+        "k": 0,
+        "lo": 0.0,
+        "n": 49,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "enough_n": false,
+        "hi": 0.22809537235419838,
+        "k": 0,
+        "lo": 0.0,
+        "n": 13,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "SHOPPING",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "SOCIAL",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "enough_n": true,
+        "hi": 0.019126821938311438,
+        "k": 0,
+        "lo": 0.0,
+        "n": 197,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "SPORTS",
+        "enough_n": false,
+        "hi": 0.1843181350088518,
+        "k": 0,
+        "lo": 0.0,
+        "n": 17,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "enough_n": false,
+        "hi": 0.3903342879021653,
+        "k": 0,
+        "lo": 0.0,
+        "n": 6,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "enough_n": false,
+        "hi": 0.4898908364545973,
+        "k": 0,
+        "lo": 0.0,
+        "n": 4,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "WEATHER",
+        "enough_n": true,
+        "hi": 0.05662405979280534,
+        "k": 0,
+        "lo": 0.0,
+        "n": 64,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "enough_n": true,
+        "hi": 0.09405782583720251,
+        "k": 0,
+        "lo": 0.0,
+        "n": 37,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "enough_n": true,
+        "hi": 0.07004661989853143,
+        "k": 0,
+        "lo": 0.0,
+        "n": 51,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "PARENTING",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "PARENTING",
+        "enough_n": true,
+        "hi": 0.08566757018443186,
+        "k": 0,
+        "lo": 0.0,
+        "n": 41,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "BEAUTY",
+        "enough_n": true,
+        "hi": 0.10426999754245206,
+        "k": 0,
+        "lo": 0.0,
+        "n": 33,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "enough_n": false,
+        "hi": 0.43448246478317476,
+        "k": 0,
+        "lo": 0.0,
+        "n": 5,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "BUSINESS",
+        "enough_n": false,
+        "hi": 0.43448246478317476,
+        "k": 0,
+        "lo": 0.0,
+        "n": 5,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "DATING",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "EDUCATION",
+        "enough_n": true,
+        "hi": 0.03595475822864816,
+        "k": 0,
+        "lo": 0.0,
+        "n": 103,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "EDUCATION",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "enough_n": false,
+        "hi": 0.6576197724933469,
+        "k": 0,
+        "lo": 0.0,
+        "n": 2,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "EVENTS",
+        "enough_n": false,
+        "hi": 0.11696979849974075,
+        "k": 0,
+        "lo": 0.0,
+        "n": 29,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "FINANCE",
+        "enough_n": false,
+        "hi": 0.35433043506668743,
+        "k": 0,
+        "lo": 0.0,
+        "n": 7,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "enough_n": false,
+        "hi": 0.6576197724933469,
+        "k": 0,
+        "lo": 0.0,
+        "n": 2,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "GAME",
+        "enough_n": true,
+        "hi": 0.062117855787202914,
+        "k": 0,
+        "lo": 0.0,
+        "n": 58,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "enough_n": false,
+        "hi": 0.2775327998628892,
+        "k": 0,
+        "lo": 0.0,
+        "n": 10,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "enough_n": true,
+        "hi": 0.061129370526788386,
+        "k": 0,
+        "lo": 0.0,
+        "n": 59,
+        "price_type": "Free",
+        "rate": 0.0
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "enough_n": false,
+        "hi": 0.5614970317550454,
+        "k": 0,
+        "lo": 0.0,
+        "n": 3,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "LIFESTYLE",
+        "enough_n": false,
+        "hi": 0.20388330103584862,
+        "k": 0,
+        "lo": 0.0,
+        "n": 15,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "enough_n": false,
+        "hi": 0.6576197724933469,
+        "k": 0,
+        "lo": 0.0,
+        "n": 2,
+        "price_type": "Paid",
+        "rate": 0.0
+      },
+      {
+        "category": "WEATHER",
+        "enough_n": false,
+        "hi": 0.43448246478317476,
+        "k": 0,
+        "lo": 0.0,
+        "n": 5,
+        "price_type": "Paid",
+        "rate": 0.0
+      }
+    ],
+    "nb03_cross_install_age": [
+      {
+        "age_band": "1-2y",
+        "enough_n": true,
+        "hi": 0.1415120696353344,
+        "install_band": "10K-100K",
+        "k": 21,
+        "lo": 0.06328224801345717,
+        "n": 220,
+        "rate": 0.09545454545454546
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": true,
+        "hi": 0.14998107700948735,
+        "install_band": "1K-10K",
+        "k": 8,
+        "lo": 0.041093461484380624,
+        "n": 100,
+        "rate": 0.08
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": true,
+        "hi": 0.11029762938852895,
+        "install_band": "10K-100K",
+        "k": 29,
+        "lo": 0.055123988148960926,
+        "n": 370,
+        "rate": 0.07837837837837838
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": true,
+        "hi": 0.10234778231637277,
+        "install_band": "10K-100K",
+        "k": 37,
+        "lo": 0.055276607921298807,
+        "n": 490,
+        "rate": 0.07551020408163266
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": true,
+        "hi": 0.14886786091773183,
+        "install_band": "1K-10K",
+        "k": 6,
+        "lo": 0.03355029552299279,
+        "n": 83,
+        "rate": 0.07228915662650602
+      },
+      {
+        "age_band": "1-2y",
+        "enough_n": true,
+        "hi": 0.08892401732275099,
+        "install_band": "100K-1M",
+        "k": 9,
+        "lo": 0.02552416891342401,
+        "n": 187,
+        "rate": 0.0481283422459893
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": true,
+        "hi": 0.08752782064075537,
+        "install_band": "1K-10K",
+        "k": 5,
+        "lo": 0.016667503195434634,
+        "n": 129,
+        "rate": 0.03875968992248062
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": true,
+        "hi": 0.07072955252775576,
+        "install_band": "100K-1M",
+        "k": 8,
+        "lo": 0.018710261500564394,
+        "n": 218,
+        "rate": 0.03669724770642202
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": true,
+        "hi": 0.062350960247899746,
+        "install_band": "10K-100K",
+        "k": 8,
+        "lo": 0.016434553914884832,
+        "n": 248,
+        "rate": 0.03225806451612903
+      },
+      {
+        "age_band": "1-2y",
+        "enough_n": true,
+        "hi": 0.10392521911709715,
+        "install_band": "1K-10K",
+        "k": 2,
+        "lo": 0.008349910198653748,
+        "n": 66,
+        "rate": 0.030303030303030304
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": true,
+        "hi": 0.04447988187803632,
+        "install_band": "100K-1M",
+        "k": 23,
+        "lo": 0.02001129965969971,
+        "n": 769,
+        "rate": 0.02990897269180754
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": true,
+        "hi": 0.04628355199609863,
+        "install_band": "100K-1M",
+        "k": 11,
+        "lo": 0.01468608248136842,
+        "n": 420,
+        "rate": 0.02619047619047619
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": true,
+        "hi": 0.04056513193658602,
+        "install_band": "1M-10M",
+        "k": 8,
+        "lo": 0.010593552545021132,
+        "n": 384,
+        "rate": 0.020833333333333332
+      },
+      {
+        "age_band": "1-2y",
+        "enough_n": true,
+        "hi": 0.03454898596247918,
+        "install_band": "1M-10M",
+        "k": 1,
+        "lo": 0.001104131769382205,
+        "n": 160,
+        "rate": 0.00625
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": true,
+        "hi": 0.009979363648667191,
+        "install_band": "1M-10M",
+        "k": 6,
+        "lo": 0.002105590419650103,
+        "n": 1307,
+        "rate": 0.0045906656465187455
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": true,
+        "hi": 0.005279698501973385,
+        "install_band": "10M+",
+        "k": 1,
+        "lo": 0.00016514963720578885,
+        "n": 1069,
+        "rate": 0.0009354536950420954
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": true,
+        "hi": 0.06313883485297894,
+        "install_band": "10M+",
+        "k": 0,
+        "lo": 0.0,
+        "n": 57,
+        "rate": 0.0
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": true,
+        "hi": 0.019920295377281662,
+        "install_band": "10M+",
+        "k": 0,
+        "lo": 0.0,
+        "n": 189,
+        "rate": 0.0
+      },
+      {
+        "age_band": "1-2y",
+        "enough_n": true,
+        "hi": 0.062117855787202914,
+        "install_band": "10M+",
+        "k": 0,
+        "lo": 0.0,
+        "n": 58,
+        "rate": 0.0
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": true,
+        "hi": 0.022097483803655452,
+        "install_band": "1M-10M",
+        "k": 0,
+        "lo": 0.0,
+        "n": 170,
+        "rate": 0.0
+      },
+      {
+        "age_band": "1-2y",
+        "enough_n": false,
+        "hi": 0.4898908364545973,
+        "install_band": "<1K",
+        "k": 0,
+        "lo": 0.0,
+        "n": 4,
+        "rate": 0.0
+      },
+      {
+        "age_band": "3-12m",
+        "enough_n": false,
+        "hi": 0.4898908364545973,
+        "install_band": "<1K",
+        "k": 0,
+        "lo": 0.0,
+        "n": 4,
+        "rate": 0.0
+      },
+      {
+        "age_band": "<=3m",
+        "enough_n": false,
+        "hi": 0.3903342879021653,
+        "install_band": "<1K",
+        "k": 0,
+        "lo": 0.0,
+        "n": 6,
+        "rate": 0.0
+      },
+      {
+        "age_band": ">2y",
+        "enough_n": false,
+        "hi": 0.7934506856227626,
+        "install_band": "<1K",
+        "k": 0,
+        "lo": 0.0,
+        "n": 1,
+        "rate": 0.0
+      }
+    ],
+    "nb03_exact_5": {
+      "n_analysis": 6709,
+      "n_exact_5": 5
+    },
+    "nb03_funnel": {
+      "low_rate_global": 0.027276792368460277,
+      "n_analysis": 6709,
+      "n_app_dedup": 9638,
+      "n_below_min_reviews": 1471,
+      "n_low": 183,
+      "n_missing_rating": 1458,
+      "n_rated": 8180,
+      "unknown_band_counts": {
+        "age_band": 0,
+        "category": 0,
+        "install_band": 0,
+        "price_band": 0,
+        "size_band": 0
+      }
+    },
+    "nb03_low_rate_by_age_band": [
+      {
+        "age_band": "<=3m",
+        "age_order": 1,
+        "enough_n": true,
+        "hi": 0.02398182658530352,
+        "k": 72,
+        "lo": 0.015193496605643085,
+        "n": 3770,
+        "rate": 0.01909814323607427
+      },
+      {
+        "age_band": "3-12m",
+        "age_order": 2,
+        "enough_n": true,
+        "hi": 0.04924579689259463,
+        "k": 56,
+        "lo": 0.029512833499544738,
+        "n": 1467,
+        "rate": 0.038173142467621
+      },
+      {
+        "age_band": "1-2y",
+        "age_order": 3,
+        "enough_n": true,
+        "hi": 0.06593185491181378,
+        "k": 33,
+        "lo": 0.03400706247662034,
+        "n": 695,
+        "rate": 0.04748201438848921
+      },
+      {
+        "age_band": ">2y",
+        "age_order": 4,
+        "enough_n": true,
+        "hi": 0.042497759751926496,
+        "k": 22,
+        "lo": 0.01877134715864808,
+        "n": 777,
+        "rate": 0.028314028314028315
+      }
+    ],
+    "nb03_low_rate_by_category": [
+      {
+        "category": "LIFESTYLE",
+        "enough_n": true,
+        "hi": 0.13446130124129863,
+        "k": 20,
+        "lo": 0.05880786149737174,
+        "n": 223,
+        "rate": 0.08968609865470852
+      },
+      {
+        "category": "DATING",
+        "enough_n": true,
+        "hi": 0.1277763633285372,
+        "k": 7,
+        "lo": 0.03174819052494758,
+        "n": 108,
+        "rate": 0.06481481481481481
+      },
+      {
+        "category": "MEDICAL",
+        "enough_n": true,
+        "hi": 0.10609091226409445,
+        "k": 10,
+        "lo": 0.03265010509174169,
+        "n": 168,
+        "rate": 0.05952380952380952
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "enough_n": true,
+        "hi": 0.09951482940508347,
+        "k": 12,
+        "lo": 0.033799020143334406,
+        "n": 205,
+        "rate": 0.05853658536585366
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "enough_n": true,
+        "hi": 0.11392451646034153,
+        "k": 5,
+        "lo": 0.021987311404024726,
+        "n": 98,
+        "rate": 0.05102040816326531
+      },
+      {
+        "category": "FINANCE",
+        "enough_n": true,
+        "hi": 0.08364702585418951,
+        "k": 12,
+        "lo": 0.028237299823050788,
+        "n": 245,
+        "rate": 0.04897959183673469
+      },
+      {
+        "category": "BUSINESS",
+        "enough_n": true,
+        "hi": 0.09274540991349235,
+        "k": 8,
+        "lo": 0.024769914576598162,
+        "n": 165,
+        "rate": 0.048484848484848485
+      },
+      {
+        "category": "TOOLS",
+        "enough_n": true,
+        "hi": 0.0641665154267137,
+        "k": 25,
+        "lo": 0.029988005883670305,
+        "n": 568,
+        "rate": 0.04401408450704225
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "enough_n": true,
+        "hi": 0.08754304154246395,
+        "k": 7,
+        "lo": 0.02135161155153454,
+        "n": 160,
+        "rate": 0.04375
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "enough_n": true,
+        "hi": 0.08349756196898246,
+        "k": 7,
+        "lo": 0.020327550685063256,
+        "n": 168,
+        "rate": 0.041666666666666664
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "enough_n": true,
+        "hi": 0.06386404861064224,
+        "k": 8,
+        "lo": 0.016844302681584718,
+        "n": 242,
+        "rate": 0.03305785123966942
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "enough_n": true,
+        "hi": 0.06174058380758925,
+        "k": 7,
+        "lo": 0.014884339052189884,
+        "n": 229,
+        "rate": 0.03056768558951965
+      },
+      {
+        "category": "FAMILY",
+        "enough_n": true,
+        "hi": 0.036048697734155595,
+        "k": 34,
+        "lo": 0.018631764918605506,
+        "n": 1310,
+        "rate": 0.025954198473282442
+      },
+      {
+        "category": "COMMUNICATION",
+        "enough_n": true,
+        "hi": 0.05426307985469314,
+        "k": 5,
+        "lo": 0.010163306452086473,
+        "n": 211,
+        "rate": 0.023696682464454975
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "enough_n": true,
+        "hi": 0.06664374505143222,
+        "k": 3,
+        "lo": 0.008002416396755481,
+        "n": 128,
+        "rate": 0.0234375
+      },
+      {
+        "category": "COMICS",
+        "enough_n": true,
+        "hi": 0.10693521523391616,
+        "k": 1,
+        "lo": 0.0036116725898252405,
+        "n": 49,
+        "rate": 0.02040816326530612
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "enough_n": true,
+        "hi": 0.09140858093468013,
+        "k": 1,
+        "lo": 0.0030500384460675004,
+        "n": 58,
+        "rate": 0.017241379310344827
+      },
+      {
+        "category": "SPORTS",
+        "enough_n": true,
+        "hi": 0.03732184312910889,
+        "k": 3,
+        "lo": 0.0044072865578661385,
+        "n": 232,
+        "rate": 0.01293103448275862
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "enough_n": true,
+        "hi": 0.06296406589291725,
+        "k": 1,
+        "lo": 0.0020555686652495644,
+        "n": 86,
+        "rate": 0.011627906976744186
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "enough_n": true,
+        "hi": 0.06227197835723791,
+        "k": 1,
+        "lo": 0.0020319077375923027,
+        "n": 87,
+        "rate": 0.011494252873563218
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "enough_n": true,
+        "hi": 0.040764083000620406,
+        "k": 1,
+        "lo": 0.001308788246274506,
+        "n": 135,
+        "rate": 0.007407407407407408
+      },
+      {
+        "category": "SHOPPING",
+        "enough_n": true,
+        "hi": 0.03433956187680337,
+        "k": 1,
+        "lo": 0.00109726853276099,
+        "n": 161,
+        "rate": 0.006211180124223602
+      },
+      {
+        "category": "SOCIAL",
+        "enough_n": true,
+        "hi": 0.032941787940814746,
+        "k": 1,
+        "lo": 0.0010515153096501174,
+        "n": 168,
+        "rate": 0.005952380952380952
+      },
+      {
+        "category": "GAME",
+        "enough_n": true,
+        "hi": 0.01054728443589564,
+        "k": 3,
+        "lo": 0.0012270284039814878,
+        "n": 832,
+        "rate": 0.003605769230769231
+      },
+      {
+        "category": "ART_AND_DESIGN",
+        "enough_n": true,
+        "hi": 0.06879223612386234,
+        "k": 0,
+        "lo": 0.0,
+        "n": 52,
+        "rate": 0.0
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "enough_n": true,
+        "hi": 0.061129370526788386,
+        "k": 0,
+        "lo": 0.0,
+        "n": 59,
+        "rate": 0.0
+      },
+      {
+        "category": "PERSONALIZATION",
+        "enough_n": true,
+        "hi": 0.01615134232585647,
+        "k": 0,
+        "lo": 0.0,
+        "n": 234,
+        "rate": 0.0
+      },
+      {
+        "category": "PARENTING",
+        "enough_n": true,
+        "hi": 0.08379879086570391,
+        "k": 0,
+        "lo": 0.0,
+        "n": 42,
+        "rate": 0.0
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "enough_n": true,
+        "hi": 0.07004661989853143,
+        "k": 0,
+        "lo": 0.0,
+        "n": 51,
+        "rate": 0.0
+      },
+      {
+        "category": "EVENTS",
+        "enough_n": false,
+        "hi": 0.11696979849974075,
+        "k": 0,
+        "lo": 0.0,
+        "n": 29,
+        "rate": 0.0
+      },
+      {
+        "category": "EDUCATION",
+        "enough_n": true,
+        "hi": 0.03562135437245191,
+        "k": 0,
+        "lo": 0.0,
+        "n": 104,
+        "rate": 0.0
+      },
+      {
+        "category": "BEAUTY",
+        "enough_n": true,
+        "hi": 0.10426999754245206,
+        "k": 0,
+        "lo": 0.0,
+        "n": 33,
+        "rate": 0.0
+      },
+      {
+        "category": "WEATHER",
+        "enough_n": true,
+        "hi": 0.05273725818905173,
+        "k": 0,
+        "lo": 0.0,
+        "n": 69,
+        "rate": 0.0
+      }
+    ],
+    "nb03_low_rate_by_install_band": [
+      {
+        "enough_n": false,
+        "hi": 0.20388330103584862,
+        "install_band": "<1K",
+        "install_order": 1,
+        "k": 0,
+        "lo": 0.0,
+        "n": 15,
+        "rate": 0.0
+      },
+      {
+        "enough_n": true,
+        "hi": 0.08343302046747327,
+        "install_band": "1K-10K",
+        "install_order": 2,
+        "k": 21,
+        "lo": 0.036620624210802616,
+        "n": 378,
+        "rate": 0.05555555555555555
+      },
+      {
+        "enough_n": true,
+        "hi": 0.08666802249970477,
+        "install_band": "10K-100K",
+        "install_order": 3,
+        "k": 95,
+        "lo": 0.058875921591309624,
+        "n": 1328,
+        "rate": 0.07153614457831325
+      },
+      {
+        "enough_n": true,
+        "hi": 0.04182219478694237,
+        "install_band": "100K-1M",
+        "install_order": 4,
+        "k": 51,
+        "lo": 0.024418080952811984,
+        "n": 1594,
+        "rate": 0.031994981179422836
+      },
+      {
+        "enough_n": true,
+        "hi": 0.012210097493655914,
+        "install_band": "1M-10M",
+        "install_order": 5,
+        "k": 15,
+        "lo": 0.0045030425268986,
+        "n": 2021,
+        "rate": 0.007422068283028204
+      },
+      {
+        "enough_n": true,
+        "hi": 0.004114071672103276,
+        "install_band": "10M+",
+        "install_order": 6,
+        "k": 1,
+        "lo": 0.00012858007495953304,
+        "n": 1373,
+        "rate": 0.0007283321194464676
+      }
+    ],
+    "nb03_low_rate_by_price_band": [
+      {
+        "enough_n": true,
+        "hi": 0.03199806665536868,
+        "k": 174,
+        "lo": 0.02387779763653441,
+        "n": 6293,
+        "price_band": "Free",
+        "price_order": 1,
+        "rate": 0.027649769585253458
+      },
+      {
+        "enough_n": true,
+        "hi": 0.08718860044641587,
+        "k": 1,
+        "lo": 0.002899730799299824,
+        "n": 61,
+        "price_band": "$0.01-0.99",
+        "price_order": 2,
+        "rate": 0.01639344262295082
+      },
+      {
+        "enough_n": true,
+        "hi": 0.055550818112433245,
+        "k": 8,
+        "lo": 0.014599643221711246,
+        "n": 279,
+        "price_band": "$1-4.99",
+        "price_order": 3,
+        "rate": 0.02867383512544803
+      },
+      {
+        "enough_n": true,
+        "hi": 0.062117855787202914,
+        "k": 0,
+        "lo": 0.0,
+        "n": 58,
+        "price_band": "$5-19.99",
+        "price_order": 4,
+        "rate": 0.0
+      },
+      {
+        "enough_n": false,
+        "hi": 0.17587922364665765,
+        "k": 0,
+        "lo": 0.0,
+        "n": 18,
+        "price_band": "$20+",
+        "price_order": 5,
+        "rate": 0.0
+      }
+    ],
+    "nb03_low_rate_by_size_band": [
+      {
+        "enough_n": true,
+        "hi": 0.016085723684780007,
+        "k": 10,
+        "lo": 0.004775839077649257,
+        "n": 1139,
+        "rate": 0.00877963125548727,
+        "size_band": "Varies",
+        "size_order": 1
+      },
+      {
+        "enough_n": true,
+        "hi": 0.062491736284379776,
+        "k": 58,
+        "lo": 0.03789132374025403,
+        "n": 1190,
+        "rate": 0.04873949579831933,
+        "size_band": "<5MB",
+        "size_order": 2
+      },
+      {
+        "enough_n": true,
+        "hi": 0.0389473850988796,
+        "k": 60,
+        "lo": 0.023698740754112716,
+        "n": 1973,
+        "rate": 0.030410542321338063,
+        "size_band": "5-20MB",
+        "size_order": 3
+      },
+      {
+        "enough_n": true,
+        "hi": 0.03660104903074314,
+        "k": 44,
+        "lo": 0.020484413503281403,
+        "n": 1605,
+        "rate": 0.027414330218068536,
+        "size_band": "20-50MB",
+        "size_order": 4
+      },
+      {
+        "enough_n": true,
+        "hi": 0.02439206114038331,
+        "k": 11,
+        "lo": 0.007675609910584599,
+        "n": 802,
+        "rate": 0.01371571072319202,
+        "size_band": "50MB+",
+        "size_order": 5
+      }
+    ],
+    "nb03_mean_median_by_category": [
+      {
+        "category": "ART_AND_DESIGN",
+        "enough_n": true,
+        "gap": 0.06346153846153868,
+        "mean": 4.336538461538462,
+        "median": 4.4,
+        "n": 52
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "enough_n": true,
+        "gap": 0.11379310344827598,
+        "mean": 4.286206896551724,
+        "median": 4.4,
+        "n": 58
+      },
+      {
+        "category": "BEAUTY",
+        "enough_n": true,
+        "gap": 0.06060606060606144,
+        "mean": 4.339393939393939,
+        "median": 4.4,
+        "n": 33
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "enough_n": true,
+        "gap": 0.134074074074074,
+        "mean": 4.365925925925926,
+        "median": 4.5,
+        "n": 135
+      },
+      {
+        "category": "BUSINESS",
+        "enough_n": true,
+        "gap": 0.08848484848484883,
+        "mean": 4.111515151515151,
+        "median": 4.2,
+        "n": 165
+      },
+      {
+        "category": "COMICS",
+        "enough_n": true,
+        "gap": 0.22857142857142865,
+        "mean": 4.171428571428572,
+        "median": 4.4,
+        "n": 49
+      },
+      {
+        "category": "COMMUNICATION",
+        "enough_n": true,
+        "gap": 0.057345971563981024,
+        "mean": 4.142654028436019,
+        "median": 4.2,
+        "n": 211
+      },
+      {
+        "category": "DATING",
+        "enough_n": true,
+        "gap": 0.13981481481481461,
+        "mean": 3.960185185185185,
+        "median": 4.1,
+        "n": 108
+      },
+      {
+        "category": "EDUCATION",
+        "enough_n": true,
+        "gap": 0.05384615384615454,
+        "mean": 4.346153846153846,
+        "median": 4.4,
+        "n": 104
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "enough_n": true,
+        "gap": 0.07011494252873529,
+        "mean": 4.129885057471265,
+        "median": 4.2,
+        "n": 87
+      },
+      {
+        "category": "EVENTS",
+        "enough_n": false,
+        "gap": 0.07241379310344875,
+        "mean": 4.327586206896552,
+        "median": 4.4,
+        "n": 29
+      },
+      {
+        "category": "FAMILY",
+        "enough_n": true,
+        "gap": 0.12984732824427514,
+        "mean": 4.170152671755725,
+        "median": 4.3,
+        "n": 1310
+      },
+      {
+        "category": "FINANCE",
+        "enough_n": true,
+        "gap": 0.15142857142857125,
+        "mean": 4.148571428571429,
+        "median": 4.3,
+        "n": 245
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "enough_n": true,
+        "gap": 0.10232558139534831,
+        "mean": 4.1976744186046515,
+        "median": 4.3,
+        "n": 86
+      },
+      {
+        "category": "GAME",
+        "enough_n": true,
+        "gap": 0.04843749999999947,
+        "mean": 4.2515625,
+        "median": 4.3,
+        "n": 832
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "enough_n": true,
+        "gap": 0.21560975609756117,
+        "mean": 4.284390243902439,
+        "median": 4.5,
+        "n": 205
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "enough_n": true,
+        "gap": 0.042372881355932535,
+        "mean": 4.157627118644068,
+        "median": 4.2,
+        "n": 59
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "enough_n": true,
+        "gap": 0.05490196078431353,
+        "mean": 4.145098039215687,
+        "median": 4.2,
+        "n": 51
+      },
+      {
+        "category": "LIFESTYLE",
+        "enough_n": true,
+        "gap": 0.07533632286995484,
+        "mean": 4.024663677130045,
+        "median": 4.1,
+        "n": 223
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "enough_n": true,
+        "gap": 0.11224489795918391,
+        "mean": 4.087755102040816,
+        "median": 4.2,
+        "n": 98
+      },
+      {
+        "category": "MEDICAL",
+        "enough_n": true,
+        "gap": 0.1184523809523812,
+        "mean": 4.181547619047619,
+        "median": 4.3,
+        "n": 168
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "enough_n": true,
+        "gap": 0.11309523809523814,
+        "mean": 4.086904761904762,
+        "median": 4.2,
+        "n": 168
+      },
+      {
+        "category": "PARENTING",
+        "enough_n": true,
+        "gap": 0.06904761904761969,
+        "mean": 4.330952380952381,
+        "median": 4.4,
+        "n": 42
+      },
+      {
+        "category": "PERSONALIZATION",
+        "enough_n": true,
+        "gap": 0.022222222222222143,
+        "mean": 4.322222222222222,
+        "median": 4.3,
+        "n": 234
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "enough_n": true,
+        "gap": 0.12183406113537121,
+        "mean": 4.178165938864629,
+        "median": 4.3,
+        "n": 229
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "enough_n": true,
+        "gap": 0.09256198347107425,
+        "mean": 4.207438016528926,
+        "median": 4.3,
+        "n": 242
+      },
+      {
+        "category": "SHOPPING",
+        "enough_n": true,
+        "gap": 0.0664596273291922,
+        "mean": 4.233540372670808,
+        "median": 4.3,
+        "n": 161
+      },
+      {
+        "category": "SOCIAL",
+        "enough_n": true,
+        "gap": 0.027976190476190155,
+        "mean": 4.27202380952381,
+        "median": 4.3,
+        "n": 168
+      },
+      {
+        "category": "SPORTS",
+        "enough_n": true,
+        "gap": 0.05560344827586139,
+        "mean": 4.244396551724138,
+        "median": 4.3,
+        "n": 232
+      },
+      {
+        "category": "TOOLS",
+        "enough_n": true,
+        "gap": 0.09823943661971857,
+        "mean": 4.101760563380282,
+        "median": 4.2,
+        "n": 568
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "enough_n": true,
+        "gap": 0.11312500000000014,
+        "mean": 4.086875,
+        "median": 4.2,
+        "n": 160
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "enough_n": true,
+        "gap": 0.10468749999999982,
+        "mean": 4.0953125,
+        "median": 4.2,
+        "n": 128
+      },
+      {
+        "category": "WEATHER",
+        "enough_n": true,
+        "gap": 0.14347826086956594,
+        "mean": 4.256521739130434,
+        "median": 4.4,
+        "n": 69
+      }
+    ],
+    "nb03_missing_rating_vs_rated": {
+      "install_share": [
+        {
+          "install_band": "<1K",
+          "install_order": 1,
+          "share_missing": 0.787,
+          "share_rated": 0.078
+        },
+        {
+          "install_band": "1K-10K",
+          "install_order": 2,
+          "share_missing": 0.16,
+          "share_rated": 0.137
+        },
+        {
+          "install_band": "10K-100K",
+          "install_order": 3,
+          "share_missing": 0.038,
+          "share_rated": 0.176
+        },
+        {
+          "install_band": "100K-1M",
+          "install_order": 4,
+          "share_missing": 0.013,
+          "share_rated": 0.195
+        },
+        {
+          "install_band": "1M-10M",
+          "install_order": 5,
+          "share_missing": 0.001,
+          "share_rated": 0.247
+        },
+        {
+          "install_band": "10M+",
+          "install_order": 6,
+          "share_missing": 0.0,
+          "share_rated": 0.168
+        }
+      ],
+      "median_store_reviews": {
+        "median_missing": 1.0,
+        "median_rated": 3032.0
+      },
+      "n_missing": 1458,
+      "n_rated": 8180
+    },
     "nb04_agreement_A_D": {
       "agree": 0.65,
       "kappa": 0.583,
@@ -3287,7 +5180,772 @@
       "tai_khoan": 360,
       "thiet_bi": 633,
       "tien_thanh_toan": 739
-    }
+    },
+    "nb05_bootstrap_by_category": [
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "ART_AND_DESIGN",
+        "n": 52,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06879223612386234,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.05172413793103448,
+        "boot_lo": 0.0,
+        "category": "AUTO_AND_VEHICLES",
+        "n": 58,
+        "rate": 0.017241379310344827,
+        "vs_global": "không khác",
+        "wilson_hi": 0.09140858093468013,
+        "wilson_lo": 0.0030500384460675004
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "BEAUTY",
+        "n": 33,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.10426999754245206,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.022222222222222223,
+        "boot_lo": 0.0,
+        "category": "BOOKS_AND_REFERENCE",
+        "n": 135,
+        "rate": 0.007407407407407408,
+        "vs_global": "không khác",
+        "wilson_hi": 0.040764083000620406,
+        "wilson_lo": 0.001308788246274506
+      },
+      {
+        "boot_hi": 0.07878787878787878,
+        "boot_lo": 0.01818181818181818,
+        "category": "BUSINESS",
+        "n": 165,
+        "rate": 0.048484848484848485,
+        "vs_global": "không khác",
+        "wilson_hi": 0.09274540991349235,
+        "wilson_lo": 0.024769914576598162
+      },
+      {
+        "boot_hi": 0.061224489795918366,
+        "boot_lo": 0.0,
+        "category": "COMICS",
+        "n": 49,
+        "rate": 0.02040816326530612,
+        "vs_global": "không khác",
+        "wilson_hi": 0.10693521523391616,
+        "wilson_lo": 0.0036116725898252405
+      },
+      {
+        "boot_hi": 0.04739336492890995,
+        "boot_lo": 0.004739336492890996,
+        "category": "COMMUNICATION",
+        "n": 211,
+        "rate": 0.023696682464454975,
+        "vs_global": "không khác",
+        "wilson_hi": 0.05426307985469314,
+        "wilson_lo": 0.010163306452086473
+      },
+      {
+        "boot_hi": 0.1111111111111111,
+        "boot_lo": 0.018518518518518517,
+        "category": "DATING",
+        "n": 108,
+        "rate": 0.06481481481481481,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.1277763633285372,
+        "wilson_lo": 0.03174819052494758
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "EDUCATION",
+        "n": 104,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.03562135437245191,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.034482758620689655,
+        "boot_lo": 0.0,
+        "category": "ENTERTAINMENT",
+        "n": 87,
+        "rate": 0.011494252873563218,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06227197835723791,
+        "wilson_lo": 0.0020319077375923027
+      },
+      {
+        "boot_hi": 0.035114503816793895,
+        "boot_lo": 0.017557251908396947,
+        "category": "FAMILY",
+        "n": 1310,
+        "rate": 0.025954198473282442,
+        "vs_global": "không khác",
+        "wilson_hi": 0.036048697734155595,
+        "wilson_lo": 0.018631764918605506
+      },
+      {
+        "boot_hi": 0.07755102040816327,
+        "boot_lo": 0.024489795918367346,
+        "category": "FINANCE",
+        "n": 245,
+        "rate": 0.04897959183673469,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.08364702585418951,
+        "wilson_lo": 0.028237299823050788
+      },
+      {
+        "boot_hi": 0.03488372093023256,
+        "boot_lo": 0.0,
+        "category": "FOOD_AND_DRINK",
+        "n": 86,
+        "rate": 0.011627906976744186,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06296406589291725,
+        "wilson_lo": 0.0020555686652495644
+      },
+      {
+        "boot_hi": 0.008413461538461538,
+        "boot_lo": 0.0,
+        "category": "GAME",
+        "n": 832,
+        "rate": 0.003605769230769231,
+        "vs_global": "thấp hơn",
+        "wilson_hi": 0.01054728443589564,
+        "wilson_lo": 0.0012270284039814878
+      },
+      {
+        "boot_hi": 0.09268292682926829,
+        "boot_lo": 0.02926829268292683,
+        "category": "HEALTH_AND_FITNESS",
+        "n": 205,
+        "rate": 0.05853658536585366,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.09951482940508347,
+        "wilson_lo": 0.033799020143334406
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "HOUSE_AND_HOME",
+        "n": 59,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.061129370526788386,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "LIBRARIES_AND_DEMO",
+        "n": 51,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.07004661989853143,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.13004484304932734,
+        "boot_lo": 0.053811659192825115,
+        "category": "LIFESTYLE",
+        "n": 223,
+        "rate": 0.08968609865470852,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.13446130124129863,
+        "wilson_lo": 0.05880786149737174
+      },
+      {
+        "boot_hi": 0.10204081632653061,
+        "boot_lo": 0.01020408163265306,
+        "category": "MAPS_AND_NAVIGATION",
+        "n": 98,
+        "rate": 0.05102040816326531,
+        "vs_global": "không khác",
+        "wilson_hi": 0.11392451646034153,
+        "wilson_lo": 0.021987311404024726
+      },
+      {
+        "boot_hi": 0.09523809523809523,
+        "boot_lo": 0.02976190476190476,
+        "category": "MEDICAL",
+        "n": 168,
+        "rate": 0.05952380952380952,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.10609091226409445,
+        "wilson_lo": 0.03265010509174169
+      },
+      {
+        "boot_hi": 0.07142857142857142,
+        "boot_lo": 0.01770833333333334,
+        "category": "NEWS_AND_MAGAZINES",
+        "n": 168,
+        "rate": 0.041666666666666664,
+        "vs_global": "không khác",
+        "wilson_hi": 0.08349756196898246,
+        "wilson_lo": 0.020327550685063256
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "PARENTING",
+        "n": 42,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.08379879086570391,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "PERSONALIZATION",
+        "n": 234,
+        "rate": 0.0,
+        "vs_global": "thấp hơn",
+        "wilson_hi": 0.01615134232585647,
+        "wilson_lo": 0.0
+      },
+      {
+        "boot_hi": 0.05240174672489083,
+        "boot_lo": 0.008733624454148471,
+        "category": "PHOTOGRAPHY",
+        "n": 229,
+        "rate": 0.03056768558951965,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06174058380758925,
+        "wilson_lo": 0.014884339052189884
+      },
+      {
+        "boot_hi": 0.05785123966942149,
+        "boot_lo": 0.012396694214876033,
+        "category": "PRODUCTIVITY",
+        "n": 242,
+        "rate": 0.03305785123966942,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06386404861064224,
+        "wilson_lo": 0.016844302681584718
+      },
+      {
+        "boot_hi": 0.018633540372670808,
+        "boot_lo": 0.0,
+        "category": "SHOPPING",
+        "n": 161,
+        "rate": 0.006211180124223602,
+        "vs_global": "không khác",
+        "wilson_hi": 0.03433956187680337,
+        "wilson_lo": 0.00109726853276099
+      },
+      {
+        "boot_hi": 0.017857142857142856,
+        "boot_lo": 0.0,
+        "category": "SOCIAL",
+        "n": 168,
+        "rate": 0.005952380952380952,
+        "vs_global": "không khác",
+        "wilson_hi": 0.032941787940814746,
+        "wilson_lo": 0.0010515153096501174
+      },
+      {
+        "boot_hi": 0.03017241379310345,
+        "boot_lo": 0.0,
+        "category": "SPORTS",
+        "n": 232,
+        "rate": 0.01293103448275862,
+        "vs_global": "không khác",
+        "wilson_hi": 0.03732184312910889,
+        "wilson_lo": 0.0044072865578661385
+      },
+      {
+        "boot_hi": 0.061619718309859156,
+        "boot_lo": 0.028169014084507043,
+        "category": "TOOLS",
+        "n": 568,
+        "rate": 0.04401408450704225,
+        "vs_global": "cao hơn",
+        "wilson_hi": 0.0641665154267137,
+        "wilson_lo": 0.029988005883670305
+      },
+      {
+        "boot_hi": 0.075,
+        "boot_lo": 0.01875,
+        "category": "TRAVEL_AND_LOCAL",
+        "n": 160,
+        "rate": 0.04375,
+        "vs_global": "không khác",
+        "wilson_hi": 0.08754304154246395,
+        "wilson_lo": 0.02135161155153454
+      },
+      {
+        "boot_hi": 0.0546875,
+        "boot_lo": 0.0,
+        "category": "VIDEO_PLAYERS",
+        "n": 128,
+        "rate": 0.0234375,
+        "vs_global": "không khác",
+        "wilson_hi": 0.06664374505143222,
+        "wilson_lo": 0.008002416396755481
+      },
+      {
+        "boot_hi": 0.0,
+        "boot_lo": 0.0,
+        "category": "WEATHER",
+        "n": 69,
+        "rate": 0.0,
+        "vs_global": "không khác",
+        "wilson_hi": 0.05273725818905173,
+        "wilson_lo": 3.469446951953614e-18
+      }
+    ],
+    "nb05_conclusions": [
+      {
+        "chi_tiet": "2/9 cấu hình đổi danh mục đứng đầu",
+        "giu_hay_doi": "Đổi",
+        "ket_luan": "Danh mục có tỉ lệ app điểm thấp cao nhất",
+        "tham_chieu": "LIFESTYLE"
+      },
+      {
+        "chi_tiet": "dấu ĐỔI, lệch tối đa 1.5 điểm %",
+        "giu_hay_doi": "Đổi",
+        "ket_luan": "App trả phí khác app miễn phí",
+        "tham_chieu": -0.6015154200638074
+      },
+      {
+        "chi_tiet": "dấu ổn định, lệch tối đa 1.3 điểm %",
+        "giu_hay_doi": "Giữ",
+        "ket_luan": "App cũ (>2 năm) khác app mới (<=3 tháng)",
+        "tham_chieu": 0.9215885077954046
+      }
+    ],
+    "nb05_ethics_rank_bias": {
+      "min_store_reviews": 50,
+      "n_exact_5": 271,
+      "n_exact_5_thin": 266,
+      "n_rated": 8180,
+      "n_top_raw": 520,
+      "n_top_raw_thin": 305,
+      "share_exact_5_thin": 0.981549815498155,
+      "share_thin_in_raw_top10": 0.5865384615384616
+    },
+    "nb05_ethics_rank_by_category": [
+      {
+        "category": "ART_AND_DESIGN",
+        "n_after_threshold": 52,
+        "n_in_both_top10": 15,
+        "n_rated": 59,
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 3
+      },
+      {
+        "category": "AUTO_AND_VEHICLES",
+        "n_after_threshold": 58,
+        "n_in_both_top10": 8,
+        "n_rated": 73,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 2
+      },
+      {
+        "category": "BEAUTY",
+        "n_after_threshold": 33,
+        "n_in_both_top10": 10,
+        "n_rated": 42,
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 1
+      },
+      {
+        "category": "BOOKS_AND_REFERENCE",
+        "n_after_threshold": 135,
+        "n_in_both_top10": 4,
+        "n_rated": 169,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 6
+      },
+      {
+        "category": "BUSINESS",
+        "n_after_threshold": 165,
+        "n_in_both_top10": 0,
+        "n_rated": 262,
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 18
+      },
+      {
+        "category": "COMICS",
+        "n_after_threshold": 49,
+        "n_in_both_top10": 11,
+        "n_rated": 54,
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 2
+      },
+      {
+        "category": "COMMUNICATION",
+        "n_after_threshold": 211,
+        "n_in_both_top10": 3,
+        "n_rated": 256,
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 8
+      },
+      {
+        "category": "DATING",
+        "n_after_threshold": 108,
+        "n_in_both_top10": 5,
+        "n_rated": 133,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 7
+      },
+      {
+        "category": "EDUCATION",
+        "n_after_threshold": 104,
+        "n_in_both_top10": 13,
+        "n_rated": 106,
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 2
+      },
+      {
+        "category": "ENTERTAINMENT",
+        "n_after_threshold": 87,
+        "n_in_both_top10": 15,
+        "n_rated": 87,
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 0
+      },
+      {
+        "category": "EVENTS",
+        "n_after_threshold": 29,
+        "n_in_both_top10": 1,
+        "n_rated": 45,
+        "n_top10_raw": 11,
+        "n_top10_raw_thin": 10
+      },
+      {
+        "category": "FAMILY",
+        "n_after_threshold": 1310,
+        "n_in_both_top10": 2,
+        "n_rated": 1645,
+        "n_top10_raw": 67,
+        "n_top10_raw_thin": 65
+      },
+      {
+        "category": "FINANCE",
+        "n_after_threshold": 245,
+        "n_in_both_top10": 1,
+        "n_rated": 300,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 9
+      },
+      {
+        "category": "FOOD_AND_DRINK",
+        "n_after_threshold": 86,
+        "n_in_both_top10": 9,
+        "n_rated": 94,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 3
+      },
+      {
+        "category": "GAME",
+        "n_after_threshold": 832,
+        "n_in_both_top10": 0,
+        "n_rated": 897,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 12
+      },
+      {
+        "category": "HEALTH_AND_FITNESS",
+        "n_after_threshold": 205,
+        "n_in_both_top10": 0,
+        "n_rated": 243,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 12
+      },
+      {
+        "category": "HOUSE_AND_HOME",
+        "n_after_threshold": 59,
+        "n_in_both_top10": 14,
+        "n_rated": 61,
+        "n_top10_raw": 15,
+        "n_top10_raw_thin": 1
+      },
+      {
+        "category": "LIBRARIES_AND_DEMO",
+        "n_after_threshold": 51,
+        "n_in_both_top10": 7,
+        "n_rated": 64,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 3
+      },
+      {
+        "category": "LIFESTYLE",
+        "n_after_threshold": 223,
+        "n_in_both_top10": 2,
+        "n_rated": 301,
+        "n_top10_raw": 29,
+        "n_top10_raw_thin": 27
+      },
+      {
+        "category": "MAPS_AND_NAVIGATION",
+        "n_after_threshold": 98,
+        "n_in_both_top10": 10,
+        "n_rated": 118,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 2
+      },
+      {
+        "category": "MEDICAL",
+        "n_after_threshold": 168,
+        "n_in_both_top10": 0,
+        "n_rated": 290,
+        "n_top10_raw": 25,
+        "n_top10_raw_thin": 25
+      },
+      {
+        "category": "NEWS_AND_MAGAZINES",
+        "n_after_threshold": 168,
+        "n_in_both_top10": 2,
+        "n_rated": 204,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 10
+      },
+      {
+        "category": "PARENTING",
+        "n_after_threshold": 42,
+        "n_in_both_top10": 11,
+        "n_rated": 50,
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 2
+      },
+      {
+        "category": "PERSONALIZATION",
+        "n_after_threshold": 234,
+        "n_in_both_top10": 0,
+        "n_rated": 298,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 10
+      },
+      {
+        "category": "PHOTOGRAPHY",
+        "n_after_threshold": 229,
+        "n_in_both_top10": 10,
+        "n_rated": 261,
+        "n_top10_raw": 18,
+        "n_top10_raw_thin": 8
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "n_after_threshold": 242,
+        "n_in_both_top10": 0,
+        "n_rated": 301,
+        "n_top10_raw": 10,
+        "n_top10_raw_thin": 10
+      },
+      {
+        "category": "SHOPPING",
+        "n_after_threshold": 161,
+        "n_in_both_top10": 9,
+        "n_rated": 180,
+        "n_top10_raw": 19,
+        "n_top10_raw_thin": 10
+      },
+      {
+        "category": "SOCIAL",
+        "n_after_threshold": 168,
+        "n_in_both_top10": 3,
+        "n_rated": 202,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 9
+      },
+      {
+        "category": "SPORTS",
+        "n_after_threshold": 232,
+        "n_in_both_top10": 9,
+        "n_rated": 260,
+        "n_top10_raw": 14,
+        "n_top10_raw_thin": 5
+      },
+      {
+        "category": "TOOLS",
+        "n_after_threshold": 568,
+        "n_in_both_top10": 0,
+        "n_rated": 717,
+        "n_top10_raw": 17,
+        "n_top10_raw_thin": 17
+      },
+      {
+        "category": "TRAVEL_AND_LOCAL",
+        "n_after_threshold": 160,
+        "n_in_both_top10": 10,
+        "n_rated": 187,
+        "n_top10_raw": 13,
+        "n_top10_raw_thin": 3
+      },
+      {
+        "category": "VIDEO_PLAYERS",
+        "n_after_threshold": 128,
+        "n_in_both_top10": 9,
+        "n_rated": 149,
+        "n_top10_raw": 12,
+        "n_top10_raw_thin": 3
+      },
+      {
+        "category": "WEATHER",
+        "n_after_threshold": 69,
+        "n_in_both_top10": 22,
+        "n_rated": 72,
+        "n_top10_raw": 22,
+        "n_top10_raw_thin": 0
+      }
+    ],
+    "nb05_global_rate": {
+      "low_rate_global": 0.027276792368460277,
+      "n": 6709
+    },
+    "nb05_median_vs_mean": {
+      "n": 6709,
+      "n_categories": 32,
+      "n_gap_above_threshold": 15,
+      "share_exact_5": 0.0007452675510508272,
+      "spearman_mean_vs_median": 0.8994588099386821
+    },
+    "nb05_permutation": {
+      "n": 6680,
+      "n_categories": 32,
+      "n_perm": 1000,
+      "null_median_pp": 6.25,
+      "null_p95_pp": 9.803921568627452,
+      "obs_range_pp": 8.968609865470851,
+      "p_value_exploratory": 0.11988011988011989
+    },
+    "nb05_rare_cells": {
+      "n_apps_in_small_categories": 29,
+      "n_categories_below_min_cell": 1,
+      "n_categories_total": 33,
+      "small_categories": [
+        "EVENTS"
+      ]
+    },
+    "nb05_robustness_grid": [
+      {
+        "bottom5_kept": 2,
+        "min_reviews": 0,
+        "n_categories_common": 32,
+        "n_rows": 9366,
+        "old_minus_new_pp": 2.2231919352867417,
+        "paid_minus_free_pp": 0.7372553997000285,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.9461675879140072,
+        "top5_kept": 3,
+        "top_category": "DATING",
+        "version": "A0"
+      },
+      {
+        "bottom5_kept": 5,
+        "min_reviews": 50,
+        "n_categories_common": 32,
+        "n_rows": 7874,
+        "old_minus_new_pp": 1.20310249840919,
+        "paid_minus_free_pp": -0.29260357290263156,
+        "rank_changed": false,
+        "spearman_vs_ref": 0.9966492926284439,
+        "top5_kept": 5,
+        "top_category": "DATING",
+        "version": "A0"
+      },
+      {
+        "bottom5_kept": 0,
+        "min_reviews": 500,
+        "n_categories_common": 30,
+        "n_rows": 6369,
+        "old_minus_new_pp": 0.4497088325863593,
+        "paid_minus_free_pp": -1.1785889670977248,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.8061612023703787,
+        "top5_kept": 3,
+        "top_category": "LIFESTYLE",
+        "version": "A0"
+      },
+      {
+        "bottom5_kept": 2,
+        "min_reviews": 0,
+        "n_categories_common": 32,
+        "n_rows": 8892,
+        "old_minus_new_pp": 2.2086824067022093,
+        "paid_minus_free_pp": 0.8838179580128342,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.949868615052337,
+        "top5_kept": 4,
+        "top_category": "LIFESTYLE",
+        "version": "A1"
+      },
+      {
+        "bottom5_kept": 5,
+        "min_reviews": 50,
+        "n_categories_common": 32,
+        "n_rows": 7416,
+        "old_minus_new_pp": 1.2188032010376735,
+        "paid_minus_free_pp": -0.1906307771027269,
+        "rank_changed": false,
+        "spearman_vs_ref": 0.9987899140357085,
+        "top5_kept": 5,
+        "top_category": "LIFESTYLE",
+        "version": "A1"
+      },
+      {
+        "bottom5_kept": 0,
+        "min_reviews": 500,
+        "n_categories_common": 30,
+        "n_rows": 5950,
+        "old_minus_new_pp": 0.4843052814744968,
+        "paid_minus_free_pp": -1.209889531825355,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.7957955995345235,
+        "top5_kept": 2,
+        "top_category": "LIFESTYLE",
+        "version": "A1"
+      },
+      {
+        "bottom5_kept": 2,
+        "min_reviews": 0,
+        "n_categories_common": 32,
+        "n_rows": 8180,
+        "old_minus_new_pp": 1.8494062756103582,
+        "paid_minus_free_pp": 0.49296394019349155,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.9526443854060844,
+        "top5_kept": 4,
+        "top_category": "LIFESTYLE",
+        "version": "A2"
+      },
+      {
+        "bottom5_kept": 5,
+        "min_reviews": 50,
+        "n_categories_common": 32,
+        "n_rows": 6709,
+        "old_minus_new_pp": 0.9215885077954046,
+        "paid_minus_free_pp": -0.6015154200638074,
+        "rank_changed": false,
+        "spearman_vs_ref": 1.0,
+        "top5_kept": 5,
+        "top_category": "LIFESTYLE",
+        "version": "A2"
+      },
+      {
+        "bottom5_kept": 0,
+        "min_reviews": 500,
+        "n_categories_common": 30,
+        "n_rows": 5254,
+        "old_minus_new_pp": 0.20380018387986515,
+        "paid_minus_free_pp": -1.3359920239282155,
+        "rank_changed": true,
+        "spearman_vs_ref": 0.794382108238725,
+        "top5_kept": 2,
+        "top_category": "LIFESTYLE",
+        "version": "A2"
+      }
+    ]
   },
   "warehouse": {
     "dw.dim_category": 72,
