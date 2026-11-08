@@ -19,4 +19,4 @@
 - Truy vấn OLAP `q01-q06` trong `sql/04-olap-queries.sql`: theo ghi chú đầu file, các truy vấn này viết cùng C (B lo cú pháp và chạy lại được, C chốt/duyệt câu hỏi nghiệp vụ). Chúng nằm trong commit `09e6aa6` (29/10) cùng bản khung repo mà em đã khai ở dòng 29/10 là do Claude soạn bản đầu; em không nhớ chi tiết từng truy vấn do ai viết nên khai theo hướng có dùng AI cho bản nháp. Em đã chạy thử `run_all.py`, 6 truy vấn này trả về 95 / 150 / 21 / 99 / 33 / 33 dòng. `q07` do C gửi, em chỉ dán vào file (commit `e700a27`, 05/11).
 - Phần báo cáo mục 4 và Phụ lục B: tính đến ngày 08/11/2026 em chưa dùng AI để viết phần này (nếu sau đó có dùng thì em bổ sung dòng mới).
 - Em không dùng AI khác ngoài Claude.
-- Em đã đọc và hiểu mọi script SQL, mã Python và phần báo cáo mà em nộp, kể cả phần AI soạn bản đầu, và giải thích được từng dòng khi vấn đáp.
+
