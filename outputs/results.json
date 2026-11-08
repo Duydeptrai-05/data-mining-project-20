@@ -1,5 +1,5 @@
 {
-  "git_commit": "e700a27",
+  "git_commit": "e8eba42",
   "olap": {
     "q01_rollup_category_pricetype": [
       {
@@ -5003,6 +5003,42 @@
       "n_overlap": 40,
       "wilson_hi": 0.779,
       "wilson_lo": 0.495
+    },
+    "nb04_baseline": {
+      "label_A": {
+        "luon_khac": {
+          "est": 0.341,
+          "hi": 0.439,
+          "lo": 0.247
+        },
+        "luon_tien_thanh_toan": {
+          "est": 0.127,
+          "hi": 0.159,
+          "lo": 0.09
+        },
+        "tu_dien": {
+          "est": 0.615,
+          "hi": 0.712,
+          "lo": 0.51
+        }
+      },
+      "label_D": {
+        "luon_khac": {
+          "est": 0.493,
+          "hi": 0.592,
+          "lo": 0.393
+        },
+        "luon_tien_thanh_toan": {
+          "est": 0.066,
+          "hi": 0.114,
+          "lo": 0.023
+        },
+        "tu_dien": {
+          "est": 0.521,
+          "hi": 0.622,
+          "lo": 0.412
+        }
+      }
     },
     "nb04_precision_A": {
       "by_topic": [
