@@ -10,7 +10,7 @@ Chủ: D. Số liệu: A7 (outputs/a7/a7_results.json), C (results.json: q07, nb
 
 ## 2. Tiếng nói bị thiếu
 - **Ai bị hại:** người dùng của các danh mục có ít review có văn bản, và nhà phát triển có app bị loại do lệch tên khi nối review với app.
-- **Cơ chế:** review chỉ nối với app qua tên app; chỉ 816/9 638 app (8,5%) có review có văn bản. 54 tên không khớp bị loại: 1 489 review (4,85% review không trùng lặp), trong đó 9 tên (16,7%, 225 review) không phải chữ Latin. Nguyên nhân của 45 tên chữ Latin còn lại chưa được kết luận.
+- **Cơ chế:** review chỉ nối với app qua tên app; chỉ 816/9 638 app (8,5%) có review có văn bản. 54 tên không khớp bị loại (1 489 review, 4,85% review không trùng lặp). Theo điều tra của A (decision log dòng 14): 44 tên (81,5%) đơn giản không có trong bảng app; 9 tên (16,7%, 225 review) viết bằng chữ không phải Latin; 1 tên là lỗi chuẩn hoá (gạch dài thay gạch nối, 37 dòng), nhóm chọn không sửa để giữ nguyên mẫu nhãn tay.
 - **Số liệu theo nhóm (chỉ số đại diện = tỉ lệ review / tỉ lệ app):** FAMILY 0,45 (chiếm 19,4% số app nhưng chỉ 8,7% số review; 3,7% app có văn bản); COMICS 0,28; ngược lại ENTERTAINMENT 2,76 (24,1% app có văn bản) và DATING 2,19. Sáu danh mục dưới 30 review tiêu cực: COMICS 1, EVENTS 16, AUTO_AND_VEHICLES 17, PARENTING 23, MAPS_AND_NAVIGATION 27, WEATHER 28.
 - **Biện pháp:** loại các danh mục này khỏi biểu đồ chủ đề; đếm và báo cáo công khai lượng dữ liệu bị loại (decision log); không kết luận thay cho danh mục thiếu mẫu.
 
