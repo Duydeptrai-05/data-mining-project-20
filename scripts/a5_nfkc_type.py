@@ -115,3 +115,15 @@ print(hit[["src_row_id", "app_name", "drop_reason", "rating", "store_reviews", "
 print("nằm trong tập phân tích (kept, có Rating, >= ngưỡng):", len(prep(hit[hit["drop_reason"] == ""])))
 print("Type KHÔNG dùng trong SQL/notebook phân tích (đã grep sql/03, sql/05, nb03, nb05: 0 kết quả) -> Free/Paid lấy từ price.")
 print("\nĐã ghi:", OUT / "nfkc_rules.csv")
+
+# --- ghi số cho báo cáo (results.json lấy từ đây qua build_results.py) ---
+from dmutils import save_result  # noqa: E402
+
+_res = res.astype(object)
+save_result("a5_nfkc_type", {
+    "nfkc_rules": _res.where(_res.notna(), None).to_dict("records"),
+    "n1_extra_kept_rows": int(extra),
+    "n1_only_rows": int(len(added)), "n1_only_rows_in_analysis": int(len(prep(added))),
+    "type_missing_price0_rows": [int(i) for i in miss["src_row_id"]],
+    "type_missing_price0_in_analysis": int(len(prep(hit[hit["drop_reason"] == ""]))),
+})

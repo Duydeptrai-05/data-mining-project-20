@@ -86,3 +86,15 @@ for tag, t in (("A0", t0), ("A1", t1)):
 print("\n--- danh mục có nhiều dòng trùng nhất trong phân tích ---")
 print(res.sort_values("n_dup_removed", ascending=False).head(6)[["n_A0", "n_dup_removed", "k_dup_removed"]].to_string())
 print("\nĐã ghi:", OUT / "exact_dup_by_category.csv")
+
+# --- ghi số cho báo cáo (results.json lấy từ đây qua build_results.py) ---
+from dmutils import save_result  # noqa: E402
+
+_res = res.reset_index().astype(object)
+save_result("a5_exact_dup", {
+    "n_analysis_A0": len(x0), "n_analysis_A1": len(x1),
+    "top1_A0": top0, "top1_A1": top1,
+    "n_dup_removed_in_analysis": int(res["n_dup_removed"].sum()),
+    "k_dup_removed_in_analysis": int(res["k_dup_removed"].sum()),
+    "by_category": _res.where(_res.notna(), None).to_dict("records"),
+})

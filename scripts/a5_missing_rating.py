@@ -69,3 +69,16 @@ big = k[k["store_reviews"] >= MIN_STORE_REVIEWS]
 print(f"\napp có store_reviews >= {MIN_STORE_REVIEWS}: {len(big)}, trong đó thiếu Rating: {int(big['rating_missing'].sum())}")
 
 print("\nĐã ghi:", OUT / "missing_rating_by_installs.csv")
+
+# --- ghi số cho báo cáo (results.json lấy từ đây qua build_results.py) ---
+from dmutils import save_result  # noqa: E402
+
+save_result("a5_missing_rating", {
+    "n_kept": len(k), "n_missing_rating": int(k["rating_missing"].sum()),
+    "chi2": float(chi2), "dof": int(dof), "p_value": float(p),
+    "median_installs_has_rating": float(med[False]), "median_installs_missing_rating": float(med[True]),
+    "min_store_reviews": MIN_STORE_REVIEWS,
+    "n_apps_ge_min_store_reviews": int(len(big)),
+    "n_missing_among_ge_min_store_reviews": int(big["rating_missing"].sum()),
+    "by_install_band": t.reset_index().to_dict("records"),
+})

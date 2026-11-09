@@ -124,3 +124,14 @@ for c in flip.columns[1:]:
 flip.reset_index().to_csv(OUT / "name_dup_category_flips.csv", index=False)
 
 print("\nĐã ghi:", OUT / "name_dup_rules.csv", "và", OUT / "name_dup_category_flips.csv")
+
+# --- ghi số cho báo cáo (results.json lấy từ đây qua build_results.py) ---
+from dmutils import save_result  # noqa: E402
+
+_res = res.astype(object)
+save_result("a5_name_dup", {
+    "n_pool": len(pool), "n_kept": len(chosen["R1 Reviews lớn nhất"]),
+    "n_multi_category_names": int(len(multi)),
+    "category_flips_vs_R1": {c: int((flip[c] != r1c).sum()) for c in flip.columns[1:]},
+    "rules": _res.where(_res.notna(), None).to_dict("records"),
+})

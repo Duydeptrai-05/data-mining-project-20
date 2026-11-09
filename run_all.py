@@ -2,7 +2,7 @@
     python run_all.py                  # chạy thật (cần dữ liệu trong data/raw + nb02 của A)
     python run_all.py --sample         # dữ liệu GIẢ để thử hạ tầng khi A chưa xong (bỏ qua kiểm tải + nb02)
     python run_all.py --no-notebooks   # chỉ chạy phần SQL/Python hạ tầng
-Thứ tự: kiểm file -> nb02 -> 00 -> 01 -> nạp stg -> 02 -> 03 -> đối chiếu -> 05 -> 04 -> nb03 -> nb05 -> nb04 -> results.json
+Thứ tự: kiểm file -> nb02 -> 00 -> 01 -> nạp stg -> 02 -> 03 -> đối chiếu -> 05 -> 04 -> nb03 -> nb05 -> nb04 -> A5/A7 -> results.json
 Lưu ý: 05 chạy MỘT lần, trước nb04 (nb04 ghi mart.review_topic; chạy lại 05 sau đó sẽ xoá bảng này)."""
 import argparse
 import csv
@@ -113,6 +113,9 @@ def main():
         run_nb("nb03_main_analysis.ipynb")     # C
         run_nb("nb05_robustness.ipynb")        # C
         run_nb("nb04_text_mining.ipynb")       # D: TRUNCATE + ghi mart.review_topic
+        if not a.sample:                       # A: chỉ đọc CSV của nb02; có chốt chặn nên không chạy được với dữ liệu giả
+            for s in ("a5_exact_dup", "a5_name_dup", "a5_missing_rating", "a5_nfkc_type", "a7_exclusion_by_category"):
+                run_py(f"scripts/{s}.py")      # mỗi script gọi save_result() -> results.json
     run_py("scripts/build_results.py")
     print("\nXONG.")
 

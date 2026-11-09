@@ -192,6 +192,11 @@ def main():
     print(json.dumps(res, ensure_ascii=False, indent=2))
     print(f"\nDa ghi 4 file vao {out.resolve()}")
 
+    # ghi so cho bao cao (results.json lay tu day qua build_results.py)
+    sys.path.insert(0, str(ROOT))
+    from dmutils import save_result
+    save_result("a7_exclusion", res)
+
 
 if __name__ == "__main__":
     main()
