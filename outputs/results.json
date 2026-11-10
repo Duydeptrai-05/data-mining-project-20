@@ -1,5 +1,5 @@
 {
-  "git_commit": "e691f15",
+  "git_commit": "dedd9f0",
   "olap": {
     "q01_rollup_category_pricetype": [
       {
@@ -3742,6 +3742,279 @@
         "pct_of_non_exact_dup_reviews": 0.0485
       }
     },
+    "nb04_a6_agreement": {
+      "agree_A_D": {
+        "agree": 0.65,
+        "k": 26,
+        "n": 40,
+        "wilson_hi": 0.779,
+        "wilson_lo": 0.495
+      },
+      "agree_binary_khac_A_D": {
+        "agree": 0.75,
+        "k": 30,
+        "n": 40,
+        "wilson_hi": 0.858,
+        "wilson_lo": 0.598
+      },
+      "agree_dict_A": {
+        "agree": 0.562,
+        "k": 45,
+        "n": 80,
+        "wilson_hi": 0.666,
+        "wilson_lo": 0.453
+      },
+      "agree_dict_A_on_overlap": {
+        "agree": 0.5,
+        "k": 20,
+        "n": 40,
+        "wilson_hi": 0.648,
+        "wilson_lo": 0.352
+      },
+      "agree_dict_D": {
+        "agree": 0.45,
+        "k": 36,
+        "n": 80,
+        "wilson_hi": 0.559,
+        "wilson_lo": 0.346
+      },
+      "agree_dict_D_on_overlap": {
+        "agree": 0.45,
+        "k": 18,
+        "n": 40,
+        "wilson_hi": 0.602,
+        "wilson_lo": 0.307
+      },
+      "kappa_A_D": {
+        "B": 2000,
+        "boot_hi": 0.748,
+        "boot_lo": 0.395,
+        "kappa": 0.583
+      },
+      "n_disagree_A_D": 14,
+      "n_disagree_involving_khac": 10
+    },
+    "nb04_agreement_A_D": {
+      "agree": 0.65,
+      "kappa": 0.583,
+      "n_agree": 26,
+      "n_overlap": 40,
+      "wilson_hi": 0.779,
+      "wilson_lo": 0.495
+    },
+    "nb04_baseline": {
+      "label_A": {
+        "luon_khac": {
+          "est": 0.341,
+          "hi": 0.439,
+          "lo": 0.247
+        },
+        "luon_tien_thanh_toan": {
+          "est": 0.127,
+          "hi": 0.159,
+          "lo": 0.09
+        },
+        "tu_dien": {
+          "est": 0.615,
+          "hi": 0.712,
+          "lo": 0.51
+        }
+      },
+      "label_D": {
+        "luon_khac": {
+          "est": 0.493,
+          "hi": 0.592,
+          "lo": 0.393
+        },
+        "luon_tien_thanh_toan": {
+          "est": 0.066,
+          "hi": 0.114,
+          "lo": 0.023
+        },
+        "tu_dien": {
+          "est": 0.521,
+          "hi": 0.622,
+          "lo": 0.412
+        }
+      }
+    },
+    "nb04_precision_A": {
+      "by_topic": [
+        {
+          "chu_de": "cap_nhat",
+          "dung": 6,
+          "n": 10,
+          "precision": 0.6,
+          "wilson_hi": 0.83,
+          "wilson_lo": 0.31
+        },
+        {
+          "chu_de": "de_xuat_tinh_nang",
+          "dung": 3,
+          "n": 7,
+          "precision": 0.43,
+          "wilson_hi": 0.75,
+          "wilson_lo": 0.16
+        },
+        {
+          "chu_de": "khac",
+          "dung": 10,
+          "n": 13,
+          "precision": 0.77,
+          "wilson_hi": 0.92,
+          "wilson_lo": 0.5
+        },
+        {
+          "chu_de": "loi_hieu_nang",
+          "dung": 6,
+          "n": 8,
+          "precision": 0.75,
+          "wilson_hi": 0.93,
+          "wilson_lo": 0.41
+        },
+        {
+          "chu_de": "noi_dung_do_kho",
+          "dung": 3,
+          "n": 8,
+          "precision": 0.38,
+          "wilson_hi": 0.69,
+          "wilson_lo": 0.14
+        },
+        {
+          "chu_de": "quang_cao",
+          "dung": 6,
+          "n": 10,
+          "precision": 0.6,
+          "wilson_hi": 0.83,
+          "wilson_lo": 0.31
+        },
+        {
+          "chu_de": "tai_khoan",
+          "dung": 3,
+          "n": 10,
+          "precision": 0.3,
+          "wilson_hi": 0.6,
+          "wilson_lo": 0.11
+        },
+        {
+          "chu_de": "thiet_bi",
+          "dung": 1,
+          "n": 6,
+          "precision": 0.17,
+          "wilson_hi": 0.56,
+          "wilson_lo": 0.03
+        },
+        {
+          "chu_de": "tien_thanh_toan",
+          "dung": 7,
+          "n": 8,
+          "precision": 0.88,
+          "wilson_hi": 0.98,
+          "wilson_lo": 0.53
+        }
+      ],
+      "pooled_8_topics": {
+        "k": 35,
+        "n": 67,
+        "precision": 0.522,
+        "wilson_hi": 0.637,
+        "wilson_lo": 0.405
+      }
+    },
+    "nb04_precision_D": {
+      "by_topic": [
+        {
+          "chu_de": "cap_nhat",
+          "dung": 4,
+          "n": 6,
+          "precision": 0.67,
+          "wilson_hi": 0.9,
+          "wilson_lo": 0.3
+        },
+        {
+          "chu_de": "de_xuat_tinh_nang",
+          "dung": 1,
+          "n": 9,
+          "precision": 0.11,
+          "wilson_hi": 0.44,
+          "wilson_lo": 0.02
+        },
+        {
+          "chu_de": "khac",
+          "dung": 13,
+          "n": 16,
+          "precision": 0.81,
+          "wilson_hi": 0.93,
+          "wilson_lo": 0.57
+        },
+        {
+          "chu_de": "loi_hieu_nang",
+          "dung": 5,
+          "n": 9,
+          "precision": 0.56,
+          "wilson_hi": 0.81,
+          "wilson_lo": 0.27
+        },
+        {
+          "chu_de": "noi_dung_do_kho",
+          "dung": 3,
+          "n": 8,
+          "precision": 0.38,
+          "wilson_hi": 0.69,
+          "wilson_lo": 0.14
+        },
+        {
+          "chu_de": "quang_cao",
+          "dung": 2,
+          "n": 7,
+          "precision": 0.29,
+          "wilson_hi": 0.64,
+          "wilson_lo": 0.08
+        },
+        {
+          "chu_de": "tai_khoan",
+          "dung": 3,
+          "n": 8,
+          "precision": 0.38,
+          "wilson_hi": 0.69,
+          "wilson_lo": 0.14
+        },
+        {
+          "chu_de": "thiet_bi",
+          "dung": 2,
+          "n": 9,
+          "precision": 0.22,
+          "wilson_hi": 0.55,
+          "wilson_lo": 0.06
+        },
+        {
+          "chu_de": "tien_thanh_toan",
+          "dung": 3,
+          "n": 8,
+          "precision": 0.38,
+          "wilson_hi": 0.69,
+          "wilson_lo": 0.14
+        }
+      ],
+      "pooled_8_topics": {
+        "k": 23,
+        "n": 64,
+        "precision": 0.359,
+        "wilson_hi": 0.482,
+        "wilson_lo": 0.253
+      }
+    },
+    "nb04_topic_counts": {
+      "cap_nhat": 541,
+      "de_xuat_tinh_nang": 314,
+      "khac": 1909,
+      "loi_hieu_nang": 643,
+      "noi_dung_do_kho": 420,
+      "quang_cao": 498,
+      "tai_khoan": 360,
+      "thiet_bi": 633,
+      "tien_thanh_toan": 739
+    },
     "nb05_bootstrap_by_category": [
       {
         "boot_hi": 0.0,
@@ -4517,6 +4790,6 @@
     "dw.dim_size": 6,
     "dw.fact_app": 9638,
     "dw.fact_review": 28250,
-    "mart.review_topic": 0
+    "mart.review_topic": 6057
   }
 }
